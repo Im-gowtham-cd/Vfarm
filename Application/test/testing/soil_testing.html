@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nearby Vegetable Mandis</title>
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <style>
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
+    .price-info {
+      font-size: 14px;
+      line-height: 1.5em;
+    }
+    .price-info strong {
+      display: inline-block;
+      width: 80px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script>
+    let map;
+    let service;
+    let infowindow;
+
+    // Mock price data (replace with live API data)
+    const mockPrices = {
+      "Tomato": "₹25/kg",
+      "Potato": "₹20/kg",
+      "Onion": "₹30/kg",
+      "Carrot": "₹40/kg",
+      "Cabbage": "₹18/kg"
+    };
+
+    function initMap() {
+      // Get user's location
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(position => {
+          const userLocation = {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+          };
+
+          map = new google.maps.Map(document.getElementById("map"), {
+            center: userLocation,
+            zoom: 15
+          });
+
+          // Mark user location
+          new google.maps.Marker({
+            position: userLocation,
+            map: map,
+            title: "You are here"
+          });
+
+          const request = {
+            location: userLocation,
+            radius: 2000, // 2 km
+            keyword: "vegetable market"
+          };
+
+          service = new google.maps.places.PlacesService(map);
+          service.nearbySearch(request, callback);
+        }, () => {
+          alert("Unable to access your location.");
+        });
+      } else {
+        alert("Geolocation is not supported by this browser.");
+      }
+    }
+
+    function callback(results, status) {
+      if (status === google.maps.places.PlacesServiceStatus.OK) {
+        results.forEach(place => {
+          createMarker(place);
+        });
+      }
+    }
+
+    function createMarker(place) {
+      if (!place.geometry || !place.geometry.location) return;
+
+      const marker = new google.maps.Marker({
+        map: map,
+        position: place.geometry.location
+      });
+
+      google.maps.event.addListener(marker, "click", () => {
+        let priceHTML = "<div class='price-info'><h3>" + place.name + "</h3>";
+        for (const [veg, price] of Object.entries(mockPrices)) {
+          priceHTML += `<div><strong>${veg}:</strong> ${price}</div>`;
+        }
+        priceHTML += "</div>";
+
+        infowindow = new google.maps.InfoWindow({
+          content: priceHTML
+        });
+        infowindow.open(map, marker);
+      });
+    }
+  </script>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ-JTbsBf1D6yayoW3mGvNHo0aJja6ZFE&callback=initMap&libraries=places">
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "692224462510",
+    "project_id": "vfarm-f0f06",
+    "storage_bucket": "vfarm-f0f06.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692224462510:android:0f47c4009cdc7f0aa9673f",
+        "android_client_info": {
+          "package_name": "com.vfarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp3_qeO1Nw6wcR_M672Juj75axw9TXwZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
