@@ -23,7 +23,17 @@ export default function App() {
                     </ul>
                 </div>
                 <div className={HomeStyle.HomeDownload}>
-                    
+                    <p>1K+ Downloads</p>
+                    <p>500+ Users</p>
+                    <p>Secure</p>
+                    <p>Trusted</p>
+                    <p>24/7 Support</p>
+                    <p>Easy to Use</p>
+                    <p>Reliable</p>
+                    <p>Cloud Based</p>
+                    <p>Affordable</p>
+                    <p>Verified</p>
+
                 </div>
                 <div className={HomeStyle.HomeImage}>
 
