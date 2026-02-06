@@ -1,0 +1,791 @@
+{
+  "@@locale": "en",
+  "appTitle": "VFarm",
+  "@appTitle": {
+    "description": "The application title"
+  },
+  "appSubtitle": "Smart Farming Solutions",
+  "@appSubtitle": {
+    "description": "The application subtitle"
+  },
+  "weAreYourFarmingPartner": "We Farm, We Evolve",
+  "@weAreYourFarmingPartner": {
+    "description": "Main home screen title"
+  },
+  "dashboard": "Dashboard",
+  "@dashboard": {
+    "description": "Dashboard menu item"
+  },
+  "governmentSchemes": "Government Schemes",
+  "@governmentSchemes": {
+    "description": "Government schemes menu item"
+  },
+  "bookService": "Book Service",
+  "@bookService": {
+    "description": "Book service menu item"
+  },
+  "markets": "Markets",
+  "@markets": {
+    "description": "Markets menu item"
+  },
+  "askExpert": "Ask Expert",
+  "@askExpert": {
+    "description": "Ask expert menu item"
+  },
+  "myVault": "My Vault",
+  "@myVault": {
+    "description": "My vault menu item"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings menu item"
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout menu item"
+  },
+  "searchSchemes": "Search Schemes",
+  "@searchSchemes": {
+    "description": "Search schemes page title"
+  },
+  "sessionExpired": "Session expired. Please log in again.",
+  "@sessionExpired": {
+    "description": "Session expired message"
+  },
+  "logoutConfirmation": "Are you sure you want to logout?",
+  "@logoutConfirmation": {
+    "description": "Logout confirmation dialog message"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  "smartFarming": "Smart Farming",
+  "@smartFarming": {
+    "description": "Smart farming service title"
+  },
+  "aiPoweredCropManagement": "AI-powered crop management",
+  "@aiPoweredCropManagement": {
+    "description": "Smart farming subtitle"
+  },
+  "monitorSoilWeatherCrop": "Monitor soil, weather, and crop health",
+  "@monitorSoilWeatherCrop": {
+    "description": "Smart farming description"
+  },
+  "financialSupportSubsidies": "Financial support & subsidies",
+  "@financialSupportSubsidies": {
+    "description": "Government schemes subtitle"
+  },
+  "accessSchemesEasyApplication": "Access schemes with easy application",
+  "@accessSchemesEasyApplication": {
+    "description": "Government schemes description"
+  },
+  "expertConsultation": "Expert Consultation",
+  "@expertConsultation": {
+    "description": "Expert consultation title"
+  },
+  "professionalFarmingAdvice": "Professional farming advice 24/7",
+  "@professionalFarmingAdvice": {
+    "description": "Expert consultation subtitle"
+  },
+  "connectWithVerifiedExperts": "Connect with verified experts",
+  "@connectWithVerifiedExperts": {
+    "description": "Expert consultation description"
+  },
+  "secureDigitalFarmingRecords": "Secure digital farming records",
+  "@secureDigitalFarmingRecords": {
+    "description": "My vault subtitle"
+  },
+  "storeDocumentsDataSafely": "Store documents & data safely",
+  "@storeDocumentsDataSafely": {
+    "description": "My vault description"
+  },
+  "exploreNow": "Explore Now",
+  "@exploreNow": {
+    "description": "Explore now button text"
+  },
+  "farmers": "Farmers",
+  "@farmers": {
+    "description": "Farmers count label"
+  },
+  "experts": "Experts",
+  "@experts": {
+    "description": "Experts count label"
+  },
+  "saved": "Saved",
+  "@saved": {
+    "description": "Money saved label"
+  },
+  "quickServices": "Quick Services",
+  "@quickServices": {
+    "description": "Quick services section title"
+  },
+  "smartFarmingSolutions": "Smart Farming Solutions",
+  "@smartFarmingSolutions": {
+    "description": "Animated typing text"
+  },
+  "governmentSchemesAvailable": "Government Schemes Available",
+  "@governmentSchemesAvailable": {
+    "description": "Animated typing text"
+  },
+  "expertConsultationReady": "Expert Consultation Ready",
+  "@expertConsultationReady": {
+    "description": "Animated typing text"
+  },
+  "marketIntelligenceHere": "Market Intelligence Here",
+  "@marketIntelligenceHere": {
+    "description": "Animated typing text"
+  },
+  "cropManagementTools": "Crop Management Tools",
+  "@cropManagementTools": {
+    "description": "Animated typing text"
+  },
+  "weatherForecastUpdates": "Weather Forecast Updates",
+  "@weatherForecastUpdates": {
+    "description": "Animated typing text"
+  },
+  "aiPoweredInsights": "AI-Powered Insights",
+  "@aiPoweredInsights": {
+    "description": "Animated typing text"
+  },
+  "modernEquipmentAccess": "Modern Equipment Access",
+  "@modernEquipmentAccess": {
+    "description": "Animated typing text"
+  },
+  "available": "Available",
+  "@available": {
+    "description": "Service availability status"
+  },
+  "live24x7": "24/7 Live",
+  "@live24x7": {
+    "description": "24/7 live service status"
+  },
+  "secure": "Secure",
+  "@secure": {
+    "description": "Security status"
+  },
+  "activeSchemes": "50+ Active",
+  "@activeSchemes": {
+    "description": "Active schemes count"
+  },
+  "trending": "Trending",
+  "@trending": {
+    "description": "Trending section title"
+  },
+  "seeAll": "See All",
+  "@seeAll": {
+    "description": "See all button text"
+  },
+  "instantServices": "Instant Services",
+  "@instantServices": {
+    "description": "Instant services section title"
+  },
+  "training": "Training",
+  "@training": {
+    "description": "Training service title"
+  },
+  "freeWorkshops": "Free Workshops",
+  "@freeWorkshops": {
+    "description": "Training service subtitle"
+  },
+  "qualityFertilizer": "Quality\nFertilizer",
+  "@qualityFertilizer": {
+    "description": "Fertilizer service title"
+  },
+  "offToday": "20% off today",
+  "@offToday": {
+    "description": "Fertilizer service discount"
+  },
+  "soilTesting": "Soil\nTesting",
+  "@soilTesting": {
+    "description": "Soil testing service title"
+  },
+  "resultsIn2hrs": "Results in 2hrs",
+  "@resultsIn2hrs": {
+    "description": "Soil testing service subtitle"
+  },
+  "farmWorkers": "Farm\nWorkers",
+  "@farmWorkers": {
+    "description": "Farm workers service title"
+  },
+  "verifiedSkilled": "Verified & skilled",
+  "@verifiedSkilled": {
+    "description": "Farm workers service subtitle"
+  },
+  "communityPosts": "Community Posts",
+  "@communityPosts": {
+    "description": "Community posts section title"
+  },
+  "createPost": "Create Post",
+  "@createPost": {
+    "description": "Create post button text"
+  },
+  "noPostsYet": "No posts yet",
+  "@noPostsYet": {
+    "description": "Empty posts message"
+  },
+  "beFirstToShare": "Be the first to share something with the community!",
+  "@beFirstToShare": {
+    "description": "Empty posts description"
+  },
+  "tapCreatePostButton": "Tap the \"Create Post\" button above to get started",
+  "@tapCreatePostButton": {
+    "description": "Empty posts instruction"
+  },
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Refresh button text"
+  },
+  "connectionError": "Connection Error",
+  "@connectionError": {
+    "description": "Connection error title"
+  },
+  "checkInternetConnection": "Please check your internet connection",
+  "@checkInternetConnection": {
+    "description": "Connection error message"
+  },
+  "tryAgain": "Try Again",
+  "@tryAgain": {
+    "description": "Try again button text"
+  },
+  "like": "Like",
+  "@like": {
+    "description": "Like button text"
+  },
+  "comment": "Comment",
+  "@comment": {
+    "description": "Comment button text"
+  },
+  "share": "Share",
+  "@share": {
+    "description": "Share button text"
+  },
+  "justNow": "Just now",
+  "@justNow": {
+    "description": "Time ago - just now"
+  },
+  "mAgo": "{minutes}m ago",
+  "@mAgo": {
+    "description": "Time ago - minutes",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "hAgo": "{hours}h ago",
+  "@hAgo": {
+    "description": "Time ago - hours",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "dAgo": "{days}d ago",
+  "@dAgo": {
+    "description": "Time ago - days",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "pleaseLoginToCreatePost": "Please log in to create a post",
+  "@pleaseLoginToCreatePost": {
+    "description": "Login required message for creating post"
+  },
+  "failedToUpdateLike": "Failed to update like: {error}",
+  "@failedToUpdateLike": {
+    "description": "Failed to update like error message",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "cropHealthAlert": "Crop Health Alert",
+  "@cropHealthAlert": {
+    "description": "Notification type - crop health alert"
+  },
+  "cropHealthAlertMessage": "Your tomato crop shows signs of early blight. Immediate action recommended.",
+  "@cropHealthAlertMessage": {
+    "description": "Crop health alert notification message"
+  },
+  "weatherUpdate": "Weather Update",
+  "@weatherUpdate": {
+    "description": "Notification type - weather update"
+  },
+  "weatherUpdateMessage": "Heavy rainfall expected in next 24 hours. Protect your crops.",
+  "@weatherUpdateMessage": {
+    "description": "Weather update notification message"
+  },
+  "harvestReminder": "Harvest Reminder",
+  "@harvestReminder": {
+    "description": "Notification type - harvest reminder"
+  },
+  "harvestReminderMessage": "Your wheat crop is ready for harvesting.",
+  "@harvestReminderMessage": {
+    "description": "Harvest reminder notification message"
+  },
+  "marketPriceUpdate": "Market Price Update",
+  "@marketPriceUpdate": {
+    "description": "Notification type - market price update"
+  },
+  "marketPriceUpdateMessage": "Tomato prices increased by 15% in your area.",
+  "@marketPriceUpdateMessage": {
+    "description": "Market price update notification message"
+  },
+  "noNotifications": "No notifications yet",
+  "@noNotifications": {
+    "description": "Empty notifications message"
+  },
+  "markAllAsRead": "Mark all as read",
+  "@markAllAsRead": {
+    "description": "Mark all notifications as read button"
+  },
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications title"
+  },
+  "searchHint": "Search for schemes, services...",
+  "@searchHint": {
+    "description": "Search input hint text"
+  },
+  "governmentSchemesTitle": "Government Schemes",
+  "myApplications": "My Applications",
+  "trackApplications": "Track your scheme applications",
+  "allSchemes": "All Schemes",
+  "searchSchemesByName": "Search schemes by name or description...",
+  "refreshSchemes": "Refresh Schemes",
+  "noSchemesMatch": "No schemes match your filters",
+  "noSchemesAvailable": "No Schemes Available",
+  "tryAdjustingFilters": "Try adjusting your search criteria or filters",
+  "newSchemesWillAppear": "New schemes will appear here when available",
+  "refresh": "Refresh",
+  "eligible": "Eligible",
+  "notEligible": "Not Eligible",
+  "all": "All",
+  "subsidy": "Subsidy",
+  "loan": "Loan",
+  "insurance": "Insurance",
+  "training": "Training",
+  "technology": "Technology",
+  "appliedOn": "Applied on",
+  "viewDetails": "View Details",
+  "downloadDocument": "Download Document",
+  "noApplicationsYet": "No Applications Yet",
+  "startApplyingMessage": "Start applying for schemes to see them here",
+  "browseSchemes": "Browse Schemes",
+  "completeProfileFirst": "Please complete your profile first to apply for schemes",
+  "applicationDocument": "Application Document",
+  "scheme": "Scheme",
+  "applicationId": "Application ID",
+  "status": "Status",
+  "downloadPending": "Document generation is in progress. Please check back later.",
+  "download": "Download",
+  "close": "Close",
+  "documentDownloaded": "Document will be downloaded shortly",
+  "submitted": "Submitted",
+  "underReview": "Under Review",
+  "approved": "Approved",
+  "rejected": "Rejected",
+  "documentsPending": "Documents Pending",
+  "currentStep": "Current Step",
+  "benefits": "Benefits",
+  "eligibilityInfo": "Eligibility Information",
+  "requiredDocuments": "Required Documents",
+  "applyNow": "Apply Now",
+  "learnMore": "Learn More",
+  "schemeDetails": "Scheme Details",
+  "agriculturalSchemes": "Agricultural Schemes",
+  "availableSchemes": "Available Schemes",
+  "refreshSchemes": "Refresh Schemes",
+  "loading": "Loading...",
+  "all": "All",
+  "subsidy": "Subsidy",
+  "loan": "Loan",
+  "insurance": "Insurance",
+  "training": "Training",
+  "technology": "Technology",
+  "eligible": "Eligible",
+  "notEligible": "Not Eligible",
+  "notifications": "Notifications",
+  "markAllRead": "Mark all read",
+  "noNotificationsYet": "No notifications yet",
+  "cropHealthAlert": "Crop Health Alert",
+  "cropAlertMessage": "Your tomato crop shows signs of early blight. Immediate action recommended.",
+  "weatherUpdate": "Weather Update",
+  "weatherUpdateMessage": "Heavy rainfall expected in next 24 hours. Protect your crops.",
+  "harvestReminder": "Harvest Reminder",
+  "harvestReminderMessage": "Your wheat crop is ready for harvesting.",
+  "marketPriceUpdate": "Market Price Update",
+  "marketPriceMessage": "Tomato prices increased by 15% in your area.",
+  "vfarm": "VFarm",
+  "smartFarmingSolutions": "Smart Farming Solutions",
+  "farmers": "Farmers",
+  "experts": "Experts",
+  "saved": "Saved",
+  "governmentSchemes": "Government Schemes",
+  "bookAService": "Book a Service",
+  "askExpert": "Ask Expert",
+  "myVault": "My Vault",
+  "activeSchemes": "50+ Active",
+  "available": "Available",
+  "liveSupport": "24/7 Live",
+  "secure": "Secure",
+  "training": "Training",
+  "freeWorkshops": "Free Workshops",
+  "qualityFertilizer": "Quality\nFertilizer",
+  "discountToday": "20% off today",
+  "soilTesting": "Soil\nTesting",
+  "resultsInHours": "Results in 2hrs",
+  "farmWorkers": "Farm\nWorkers",
+  "verifiedSkilled": "Verified & skilled",
+  "trendingNow": "Trending Now",
+  "viewAll": "View All",
+  "instantServices": "Instant Services",
+  "availableNow": "Available now",
+  "connectionError": "Connection Error",
+  "checkInternetConnection": "Please check your internet connection",
+  "tryAgain": "Try Again",
+  "refresh": "Refresh",
+  "noPostsYet": "No posts yet",
+  "beFirstToShare": "Be the first to share something with the community!",
+  "tapCreatePost": "Tap the \"Create Post\" button above to get started",
+  "pleaseLoginToCreatePost": "Please login to create a post",
+  "failedToUpdateLike": "Failed to update like",
+  "myVaultTitle": "My Vault",
+  "uploadDocument": "Upload Document",
+  "searchDocuments": "Search documents...",
+  "all": "All",
+  "cropHistory": "Crop History",
+  "invoices": "Invoices",
+  "landDocuments": "Land Documents",
+  "agriLoanRecords": "Agri-Loan Records",
+  "pleaseLoginToViewDocuments": "Please login to view documents",
+  "userIdNotFound": "User ID not found",
+  "errorLoadingDocuments": "Error loading documents",
+  "retry": "Retry",
+  "noDocumentsFound": "No Documents Found",
+  "uploadFirstDocument": "Upload your first document to get started",
+  "noDocumentsInCategory": "No documents in {category} category",
+  "view": "View",
+  "delete": "Delete",
+  "today": "Today",
+  "yesterday": "Yesterday",
+  "daysAgo": "{days} days ago",
+  "updateProfilePicture": "Update Profile Picture",
+  "camera": "Camera",
+  "gallery": "Gallery",
+  "uploadingProfileImage": "Uploading profile image...",
+  "profileImageUpdated": "Profile image updated successfully",
+  "errorUploadingImage": "Error uploading image",
+  "pleaseLoginToUpload": "Please login to upload documents",
+  "documentName": "Document Name",
+  "enterDocumentName": "Enter a name for your document",
+  "category": "Category",
+  "tagsOptional": "Tags (optional)",
+  "enterTagsSeparated": "Enter tags separated by commas",
+  "tapToSelectFile": "Tap to select file",
+  "pdfImagesDocuments": "PDF, Images, or Documents",
+  "fileSelected": "File Selected",
+  "uploading": "Uploading...",
+  "cancel": "Cancel",
+  "errorSelectingFile": "Error selecting file",
+  "pleaseSelectFile": "Please select a file first",
+  "pleaseEnterDocumentName": "Please enter a document name",
+  "errorUploadingDocument": "Error uploading document",
+  "documentUploaded": "Document uploaded successfully",
+  "deleteDocument": "Delete Document",
+  "areYouSureDelete": "Are you sure you want to delete \"{fileName}\"?",
+  "deletingDocument": "Deleting document...",
+  "documentDeleted": "Document deleted successfully",
+  "errorDeletingDocument": "Error deleting document",
+  "logout": "Logout",
+  "areYouSureLogout": "Are you sure you want to logout?",
+  "errorLoadingProfile": "Error loading profile",
+  "authenticationRequired": "Authentication required",
+  "couldNotLoadProfile": "Could not load user profile",
+  "uploaded": "Uploaded",
+  "profileSettings": "Profile Settings",
+  "loadingSettings": "Loading settings...",
+  "failedToLoadSettings": "Failed to load settings. Please try again.",
+  "userProfileNotFound": "User profile not found",
+  "noUserSessionFound": "No user session found. Please log in again.",
+  "errorLoadingUserData": "Error loading user data",
+  "name": "Name",
+  "phone": "Phone",
+  "bio": "Bio",
+  "farmLocation": "Farm Location",
+  "farmSizeAcres": "Farm Size (acres)",
+  "updateProfile": "Update Profile",
+  "profileImageUpdatedSuccessfully": "Profile image updated successfully",
+  "errorUploadingImage": "Error uploading image",
+  "profileUpdatedSuccessfully": "Profile updated successfully",
+  "errorUpdatingProfile": "Error updating profile",
+  "helpCenter": "Help Center",
+  "howToAddCrops": "How to add crops?",
+  "howToAddCropsAnswer": "Go to the crops section and tap the + button to add new crops to your farm.",
+  "howToTrackWeather": "How to track weather?",
+  "howToTrackWeatherAnswer": "Weather information is automatically updated based on your farm location.",
+  "howToManageIrrigation": "How to manage irrigation?",
+  "howToManageIrrigationAnswer": "Use the irrigation scheduler to set up automated watering for your crops.",
+  "howToViewAnalytics": "How to view analytics?",
+  "howToViewAnalyticsAnswer": "Analytics can be found in the dashboard showing your farm performance metrics.",
+  "accountVerification": "Account verification",
+  "accountVerificationAnswer": "Upload required documents in profile settings to get your account verified.",
+  "contactSupport": "Contact support",
+  "contactSupportAnswer": "Use the contact support option below to reach our team directly.",
+  "contactSupportTitle": "Contact Support",
+  "subject": "Subject",
+  "message": "Message",
+  "sendMessage": "Send Message",
+  "pleaseFillInAllFields": "Please fill in all fields",
+  "supportRequestSubmittedSuccessfully": "Support request submitted successfully",
+  "errorSubmittingRequest": "Error submitting request",
+  "signOut": "Sign Out",
+  "areYouSureYouWantToSignOut": "Are you sure you want to sign out?",
+  "account": "Account",
+  "privacyAndSecurity": "Privacy & Security",
+  "privacySettingsComingSoon": "Privacy settings coming soon",
+  "paymentMethods": "Payment Methods",
+  "paymentMethodsComingSoon": "Payment methods coming soon",
+  "preferences": "Preferences",
+  "pushNotifications": "Push Notifications",
+  "darkMode": "Dark Mode",
+  "language": "Language",
+  "support": "Support",
+  "verifiedMember": "Verified Member",
+  "somethingWentWrong": "Something went wrong",
+  "close": "Close",
+  "retry": "Retry",
+  "cancel": "Cancel",
+  "settings": "Settings",
+  
+  "botWhatCropHarvested": "What crop did you harvest?",
+  "botHowMuchQuantity": "How much quantity did you harvest? Please specify the amount and unit.",
+  "botApproximateProfit": "What is the approximate profit from this harvest?",
+  "botWhatDidWithCrop": "What did you do with the harvested crop?",
+  "botWhatCropType": "What type of crop were you working with?",
+  "botHowMuchArea": "How much area did you cover? Please mention in acres or square feet.",
+  "botWhatSeedType": "What type of seeds did you use?",
+  "botWhatAnimalType": "What type of animals were you caring for?",
+  "botHowManyAnimals": "How many animals were involved?",
+  "botWhichEquipment": "Which equipment or tool did you use?",
+  "botWhatWorkType": "What kind of work or maintenance did you do?",
+  "botWhichArea": "Which area or structure did you maintain?",
+  "botWhatWorkDone": "What specific work did you do?",
+  "botWhatPlanning": "What kind of planning did you do?",
+  "botWhatDecisions": "What decisions did you make?",
+  "botDescribeActivity": "Can you describe what you did in more detail?",
+  "botActivityComplete": "Thank you! Your activity information is complete.",
+  "botGreatSelection": "Great! You've selected {activity}. Please tell me about your activity. I'm listening...",
+  "@botGreatSelection": {
+    "placeholders": {
+      "activity": {
+        "type": "String"
+      }
+    }
+  },
+  "botActivitySaved": "Activity saved successfully! Great work!",
+  
+  "dailyActivity": "Daily Activity",
+  "addActivity": "Add Activity",
+  "recordFarmActivity": "Record Farm Activity",
+  "cropManagement": "Crop Management",
+  "cropManagementDesc": "Planting, watering, fertilizing, pest control",
+  "livestockCare": "Livestock Care", 
+  "livestockCareDesc": "Animal feeding, health checks, milking",
+  "equipmentTools": "Equipment & Tools",
+  "equipmentToolsDesc": "Maintenance, repairs, equipment operation",
+  "harvesting": "Harvesting",
+  "harvestingDesc": "Crop collection, processing, storage",
+  "farmMaintenance": "Farm Maintenance",
+  "farmMaintenanceDesc": "Infrastructure, fencing, building repairs",
+  "planningAdmin": "Planning & Admin",
+  "planningAdminDesc": "Record keeping, planning, financial management",
+  
+  "recordYourFarmActivity": "Record Your Farm Activity",
+  "selectActivityTypeToStart": "Select an activity type to get started with voice recording",
+  "tellMeAboutActivity": "Tell me about your activity in any language",
+  "listening": "Listening...",
+  "stopListening": "Stop Listening",
+  "processingWithAI": "Processing with AI...",
+  "tapToStartRecording": "Tap to start recording",
+  "microphoneNotAvailable": "Microphone not available",
+  "whatIHeard": "What I heard:",
+  "detectedLanguage": "Detected language: {language}",
+  "@detectedLanguage": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "needMoreInformation": "Need more information:",
+  "provideMissingInfo": "Please provide the missing information by speaking again.",
+  "activityProcessedSuccessfully": "Activity Processed Successfully!",
+  "saveActivity": "Save Activity",
+  "activitySaved": "Activity Saved!",
+  "activityRecordedSuccessfully": "Your farm activity has been recorded successfully.",
+  "continueButton": "Continue",
+  "addAnother": "Add Another",
+  "skipToHome": "Skip to Home",
+  "ok": "OK",
+  
+  "speechRecognitionNotAvailable": "Speech recognition not available",
+  "noVoiceInputDetected": "No voice input detected",
+  "processingFailed": "Processing failed: {error}",
+  "@processingFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "errorProcessingVoiceInput": "Error processing voice input: {error}",
+  "@errorProcessingVoiceInput": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToInitialize": "Failed to initialize: {error}",
+  "@failedToInitialize": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToSaveActivity": "Failed to save activity: {error}",
+  "@failedToSaveActivity": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "speechRecognitionError": "Speech recognition error: {error}",
+  "@speechRecognitionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialWelcomeTitle": "Welcome to VFarm! 🌱",
+  "@tutorialWelcomeTitle": {
+    "description": "Tutorial step 1 title"
+  },
+  "tutorialWelcomeDescription": "Let's get you started with a quick tour. Tap \"Next\" to open the sidebar.",
+  "@tutorialWelcomeDescription": {
+    "description": "Tutorial step 1 description"
+  },
+  "tutorialVaultTitle": "Open My Vault 🗂️",
+  "@tutorialVaultTitle": {
+    "description": "Tutorial step 2 title"
+  },
+  "tutorialVaultDescription": "Great! Now tap \"Next\" to go to My Vault - your personal storage and profile.",
+  "@tutorialVaultDescription": {
+    "description": "Tutorial step 2 description"
+  },
+  "tutorialProfileTitle": "Complete Your Profile 👤",
+  "@tutorialProfileTitle": {
+    "description": "Tutorial step 3 title"
+  },
+  "tutorialProfileDescription": "Perfect! Tap \"Next\" to edit your profile. Fill in your details to personalize your experience!",
+  "@tutorialProfileDescription": {
+    "description": "Tutorial step 3 description"
+  },
+  "tutorialSkip": "Skip",
+  "@tutorialSkip": {
+    "description": "Tutorial skip button"
+  },
+  "tutorialNext": "Next",
+  "@tutorialNext": {
+    "description": "Tutorial next button"
+  },
+  "tutorialGotIt": "Got it!",
+  "@tutorialGotIt": {
+    "description": "Tutorial completion button"
+  },
+  "completeYourProfile": "Complete Your Profile",
+  "@completeYourProfile": {
+    "description": "Complete profile title"
+  },
+  "editProfile": "Edit Profile",
+  "@editProfile": {
+    "description": "Edit profile title"
+  },
+  "profileCompletionMessage": "Please complete your profile to continue using VFarm. This information helps us provide you with better farming recommendations.",
+  "@profileCompletionMessage": {
+    "description": "Profile completion dialog message"
+  },
+  "continueEditing": "Continue Editing",
+  "@continueEditing": {
+    "description": "Continue editing profile button"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  "tapToChangeProfilePicture": "Tap to change profile picture",
+  "@tapToChangeProfilePicture": {
+    "description": "Profile picture instruction"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name field label"
+  },
+  "pleaseEnterYourName": "Please enter your name",
+  "@pleaseEnterYourName": {
+    "description": "Name validation message"
+  },
+  "phoneNumber": "Phone Number",
+  "@phoneNumber": {
+    "description": "Phone number field label"
+  },
+  "pleaseEnterYourPhoneNumber": "Please enter your phone number",
+  "@pleaseEnterYourPhoneNumber": {
+    "description": "Phone validation message"
+  },
+  "farmLocation": "Farm Location",
+  "@farmLocation": {
+    "description": "Farm location field label"
+  },
+  "pleaseEnterYourFarmLocation": "Please enter your farm location",
+  "@pleaseEnterYourFarmLocation": {
+    "description": "Farm location validation message"
+  },
+  "farmSizeAcres": "Farm Size (acres)",
+  "@farmSizeAcres": {
+    "description": "Farm size field label"
+  },
+  "pleaseEnterYourFarmSize": "Please enter your farm size",
+  "@pleaseEnterYourFarmSize": {
+    "description": "Farm size validation message"
+  },
+  "cropTypes": "Crop Types",
+  "@cropTypes": {
+    "description": "Crop types section label"
+  },
+  "saveProfile": "Save Profile",
+  "@saveProfile": {
+    "description": "Save profile button text"
+  },
+  "errorUploadingImage": "Error uploading image",
+  "@errorUploadingImage": {
+    "description": "Image upload error message"
+  },
+  "profileUpdatedSuccessfully": "Profile updated successfully",
+  "@profileUpdatedSuccessfully": {
+    "description": "Profile save success message"
+  },
+  "errorSavingProfile": "Error saving profile",
+  "@errorSavingProfile": {
+    "description": "Profile save error message"
+  }
+}

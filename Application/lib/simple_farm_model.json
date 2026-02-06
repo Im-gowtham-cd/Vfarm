@@ -1,0 +1,1272 @@
+{
+  "activity_patterns": {
+    "season_crop": {
+      "Kharif_Pepper": {
+        "Sowing": 0.11777301927194861,
+        "Pesticide Spray": 0.07708779443254818,
+        "Ploughing": 0.10278372591006424,
+        "Irrigation": 0.20342612419700215,
+        "Fertilizer Application": 0.08779443254817987,
+        "Weeding": 0.06638115631691649,
+        "Storage": 0.11349036402569593,
+        "Harvesting": 0.145610278372591,
+        "Threshing": 0.08565310492505353
+      },
+      "Kharif_Rubber": {
+        "Irrigation": 0.2271186440677966,
+        "Ploughing": 0.09830508474576272,
+        "Sowing": 0.10508474576271186,
+        "Pesticide Spray": 0.07796610169491526,
+        "Weeding": 0.09830508474576272,
+        "Threshing": 0.08813559322033898,
+        "Fertilizer Application": 0.07796610169491526,
+        "Storage": 0.12542372881355932,
+        "Harvesting": 0.1016949152542373
+      },
+      "Kharif_Coconut": {
+        "Irrigation": 0.215,
+        "Ploughing": 0.095,
+        "Threshing": 0.08,
+        "Weeding": 0.105,
+        "Sowing": 0.115,
+        "Harvesting": 0.1,
+        "Fertilizer Application": 0.075,
+        "Pesticide Spray": 0.075,
+        "Storage": 0.14
+      },
+      "Rabi_Paddy": {
+        "Ploughing": 0.12903225806451613,
+        "Weeding": 0.16666666666666666,
+        "Sowing": 0.16129032258064516,
+        "Storage": 0.20430107526881722,
+        "Irrigation": 0.08064516129032258,
+        "Fertilizer Application": 0.0913978494623656,
+        "Harvesting": 0.16666666666666666
+      },
+      "Kharif_Tapioca": {
+        "Irrigation": 0.19310344827586207,
+        "Sowing": 0.10344827586206896,
+        "Ploughing": 0.08275862068965517,
+        "Weeding": 0.07931034482758621,
+        "Pesticide Spray": 0.08620689655172414,
+        "Fertilizer Application": 0.10689655172413794,
+        "Harvesting": 0.1310344827586207,
+        "Threshing": 0.1206896551724138,
+        "Storage": 0.09655172413793103
+      },
+      "Summer_Coconut": {
+        "Ploughing": 0.20218579234972678,
+        "Storage": 0.16393442622950818,
+        "Irrigation": 0.22950819672131148,
+        "Sowing": 0.14207650273224043,
+        "Fertilizer Application": 0.1092896174863388,
+        "Harvesting": 0.15300546448087432
+      },
+      "Kharif_Banana": {
+        "Irrigation": 0.22962962962962963,
+        "Sowing": 0.13333333333333333,
+        "Ploughing": 0.08888888888888889,
+        "Pesticide Spray": 0.09259259259259259,
+        "Fertilizer Application": 0.1037037037037037,
+        "Harvesting": 0.11851851851851852,
+        "Storage": 0.08888888888888889,
+        "Threshing": 0.08518518518518518,
+        "Weeding": 0.05925925925925926
+      },
+      "Summer_Tapioca": {
+        "Irrigation": 0.29045643153526973,
+        "Ploughing": 0.17012448132780084,
+        "Sowing": 0.1078838174273859,
+        "Storage": 0.1950207468879668,
+        "Fertilizer Application": 0.08298755186721991,
+        "Harvesting": 0.15352697095435686
+      },
+      "Kharif_Cashew": {
+        "Ploughing": 0.12727272727272726,
+        "Threshing": 0.12363636363636364,
+        "Sowing": 0.09818181818181818,
+        "Storage": 0.12,
+        "Irrigation": 0.17454545454545456,
+        "Weeding": 0.07272727272727272,
+        "Fertilizer Application": 0.10545454545454545,
+        "Pesticide Spray": 0.06545454545454546,
+        "Harvesting": 0.11272727272727273
+      },
+      "Summer_Banana": {
+        "Irrigation": 0.24829931972789115,
+        "Ploughing": 0.1598639455782313,
+        "Storage": 0.14965986394557823,
+        "Fertilizer Application": 0.1360544217687075,
+        "Sowing": 0.14285714285714285,
+        "Harvesting": 0.16326530612244897
+      },
+      "Kharif_Arecanut": {
+        "Ploughing": 0.1246684350132626,
+        "Harvesting": 0.13262599469496023,
+        "Irrigation": 0.1883289124668435,
+        "Fertilizer Application": 0.06631299734748011,
+        "Sowing": 0.11936339522546419,
+        "Weeding": 0.08488063660477453,
+        "Pesticide Spray": 0.07692307692307693,
+        "Storage": 0.10344827586206896,
+        "Threshing": 0.10344827586206896
+      },
+      "Kharif_Vegetables": {
+        "Pesticide Spray": 0.10810810810810811,
+        "Irrigation": 0.2972972972972973,
+        "Ploughing": 0.10810810810810811,
+        "Sowing": 0.06756756756756757,
+        "Weeding": 0.06756756756756757,
+        "Fertilizer Application": 0.06756756756756757,
+        "Storage": 0.05405405405405406,
+        "Harvesting": 0.10810810810810811,
+        "Threshing": 0.12162162162162163
+      },
+      "Kharif_Coffee": {
+        "Ploughing": 0.12827225130890052,
+        "Irrigation": 0.20418848167539266,
+        "Sowing": 0.07068062827225131,
+        "Fertilizer Application": 0.08376963350785341,
+        "Storage": 0.09162303664921466,
+        "Pesticide Spray": 0.10209424083769633,
+        "Harvesting": 0.14136125654450263,
+        "Threshing": 0.1099476439790576,
+        "Weeding": 0.06806282722513089
+      },
+      "Rabi_Vegetables": {
+        "Sowing": 0.140625,
+        "Ploughing": 0.234375,
+        "Irrigation": 0.1484375,
+        "Weeding": 0.078125,
+        "Fertilizer Application": 0.109375,
+        "Harvesting": 0.140625,
+        "Storage": 0.1484375
+      },
+      "Kharif_Paddy": {
+        "Ploughing": 0.10576923076923077,
+        "Sowing": 0.12980769230769232,
+        "Irrigation": 0.20192307692307693,
+        "Pesticide Spray": 0.10576923076923077,
+        "Weeding": 0.052884615384615384,
+        "Fertilizer Application": 0.07211538461538461,
+        "Harvesting": 0.16346153846153846,
+        "Threshing": 0.08173076923076923,
+        "Storage": 0.08653846153846154
+      },
+      "Rabi_Coconut": {
+        "Ploughing": 0.19444444444444445,
+        "Sowing": 0.19444444444444445,
+        "Fertilizer Application": 0.1111111111111111,
+        "Irrigation": 0.08333333333333333,
+        "Weeding": 0.16666666666666666,
+        "Harvesting": 0.1111111111111111,
+        "Storage": 0.1388888888888889
+      },
+      "Summer_Vegetables": {
+        "Ploughing": 0.1388888888888889,
+        "Irrigation": 0.37037037037037035,
+        "Sowing": 0.09259259259259259,
+        "Harvesting": 0.14814814814814814,
+        "Fertilizer Application": 0.12037037037037036,
+        "Storage": 0.12962962962962962
+      }
+    },
+    "month": {
+      "6": {
+        "Sowing": 0.19718309859154928,
+        "Pesticide Spray": 0.06086519114688129,
+        "Ploughing": 0.2414486921529175,
+        "Irrigation": 0.3163983903420523,
+        "Fertilizer Application": 0.09054325955734406,
+        "Weeding": 0.0658953722334004,
+        "Threshing": 0.009557344064386318,
+        "Harvesting": 0.011066398390342052,
+        "Storage": 0.007042253521126761
+      },
+      "7": {
+        "Irrigation": 0.10710760118460019,
+        "Weeding": 0.06416584402764067,
+        "Storage": 0.23790720631786771,
+        "Pesticide Spray": 0.05873642645607108,
+        "Fertilizer Application": 0.0947680157946693,
+        "Harvesting": 0.2591312931885489,
+        "Threshing": 0.12931885488647582,
+        "Ploughing": 0.012833168805528134,
+        "Sowing": 0.03603158933859822
+      }
+    },
+    "district_crop": {
+      "Ernakulam_Pepper": {
+        "Sowing": 0.12195121951219512,
+        "Pesticide Spray": 0.08536585365853659,
+        "Ploughing": 0.0975609756097561,
+        "Irrigation": 0.17073170731707318,
+        "Fertilizer Application": 0.0975609756097561,
+        "Weeding": 0.06097560975609756,
+        "Storage": 0.14634146341463414,
+        "Harvesting": 0.15853658536585366,
+        "Threshing": 0.06097560975609756
+      },
+      "Pathanamthitta_Rubber": {
+        "Irrigation": 0.23943661971830985,
+        "Ploughing": 0.18309859154929578,
+        "Sowing": 0.11267605633802817,
+        "Pesticide Spray": 0.07042253521126761,
+        "Weeding": 0.056338028169014086,
+        "Threshing": 0.07042253521126761,
+        "Fertilizer Application": 0.028169014084507043,
+        "Storage": 0.1267605633802817,
+        "Harvesting": 0.11267605633802817
+      },
+      "Thiruvananthapuram_Coconut": {
+        "Irrigation": 0.31645569620253167,
+        "Ploughing": 0.11392405063291139,
+        "Threshing": 0.0759493670886076,
+        "Weeding": 0.06329113924050633,
+        "Sowing": 0.08860759493670886,
+        "Harvesting": 0.12658227848101267,
+        "Fertilizer Application": 0.08860759493670886,
+        "Pesticide Spray": 0.012658227848101266,
+        "Storage": 0.11392405063291139
+      },
+      "Kannur_Pepper": {
+        "Sowing": 0.17647058823529413,
+        "Ploughing": 0.029411764705882353,
+        "Irrigation": 0.17647058823529413,
+        "Threshing": 0.08823529411764706,
+        "Fertilizer Application": 0.11764705882352941,
+        "Pesticide Spray": 0.11764705882352941,
+        "Weeding": 0.11764705882352941,
+        "Harvesting": 0.11764705882352941,
+        "Storage": 0.058823529411764705
+      },
+      "Malappuram_Paddy": {
+        "Ploughing": 0.1388888888888889,
+        "Weeding": 0.16666666666666666,
+        "Sowing": 0.2222222222222222,
+        "Storage": 0.1388888888888889,
+        "Irrigation": 0.05555555555555555,
+        "Fertilizer Application": 0.1111111111111111,
+        "Harvesting": 0.16666666666666666
+      },
+      "Palakkad_Tapioca": {
+        "Irrigation": 0.21153846153846154,
+        "Sowing": 0.11538461538461539,
+        "Ploughing": 0.11538461538461539,
+        "Weeding": 0.038461538461538464,
+        "Pesticide Spray": 0.038461538461538464,
+        "Fertilizer Application": 0.1346153846153846,
+        "Harvesting": 0.1346153846153846,
+        "Threshing": 0.15384615384615385,
+        "Storage": 0.057692307692307696
+      },
+      "Palakkad_Coconut": {
+        "Ploughing": 0.1574074074074074,
+        "Storage": 0.16666666666666666,
+        "Irrigation": 0.14814814814814814,
+        "Sowing": 0.14814814814814814,
+        "Fertilizer Application": 0.08333333333333333,
+        "Harvesting": 0.12962962962962962,
+        "Weeding": 0.09259259259259259,
+        "Pesticide Spray": 0.046296296296296294,
+        "Threshing": 0.027777777777777776
+      },
+      "Thrissur_Banana": {
+        "Irrigation": 0.23529411764705882,
+        "Sowing": 0.14705882352941177,
+        "Ploughing": 0.13970588235294118,
+        "Pesticide Spray": 0.022058823529411766,
+        "Fertilizer Application": 0.1323529411764706,
+        "Harvesting": 0.18382352941176472,
+        "Storage": 0.125,
+        "Threshing": 0.014705882352941176
+      },
+      "Pathanamthitta_Tapioca": {
+        "Irrigation": 0.32432432432432434,
+        "Ploughing": 0.10810810810810811,
+        "Sowing": 0.16216216216216217,
+        "Storage": 0.16216216216216217,
+        "Fertilizer Application": 0.08108108108108109,
+        "Harvesting": 0.16216216216216217
+      },
+      "Idukki_Tapioca": {
+        "Ploughing": 0.13253012048192772,
+        "Irrigation": 0.2289156626506024,
+        "Sowing": 0.08433734939759036,
+        "Harvesting": 0.1686746987951807,
+        "Fertilizer Application": 0.12048192771084337,
+        "Storage": 0.14457831325301204,
+        "Weeding": 0.012048192771084338,
+        "Pesticide Spray": 0.060240963855421686,
+        "Threshing": 0.04819277108433735
+      },
+      "Malappuram_Cashew": {
+        "Ploughing": 0.16883116883116883,
+        "Threshing": 0.15584415584415584,
+        "Sowing": 0.05194805194805195,
+        "Storage": 0.14285714285714285,
+        "Irrigation": 0.14285714285714285,
+        "Weeding": 0.07792207792207792,
+        "Fertilizer Application": 0.09090909090909091,
+        "Pesticide Spray": 0.09090909090909091,
+        "Harvesting": 0.07792207792207792
+      },
+      "Kollam_Cashew": {
+        "Sowing": 0.13043478260869565,
+        "Weeding": 0.06521739130434782,
+        "Irrigation": 0.17391304347826086,
+        "Ploughing": 0.06521739130434782,
+        "Fertilizer Application": 0.10869565217391304,
+        "Pesticide Spray": 0.021739130434782608,
+        "Harvesting": 0.13043478260869565,
+        "Storage": 0.10869565217391304,
+        "Threshing": 0.1956521739130435
+      },
+      "Kannur_Tapioca": {
+        "Ploughing": 0.12121212121212122,
+        "Sowing": 0.06060606060606061,
+        "Threshing": 0.15151515151515152,
+        "Irrigation": 0.24242424242424243,
+        "Pesticide Spray": 0.12121212121212122,
+        "Fertilizer Application": 0.09090909090909091,
+        "Harvesting": 0.12121212121212122,
+        "Storage": 0.06060606060606061,
+        "Weeding": 0.030303030303030304
+      },
+      "Palakkad_Banana": {
+        "Irrigation": 0.3,
+        "Ploughing": 0.1,
+        "Storage": 0.13333333333333333,
+        "Fertilizer Application": 0.1,
+        "Sowing": 0.16666666666666666,
+        "Harvesting": 0.2
+      },
+      "Thrissur_Arecanut": {
+        "Ploughing": 0.15,
+        "Harvesting": 0.2,
+        "Irrigation": 0.15,
+        "Fertilizer Application": 0.075,
+        "Sowing": 0.1,
+        "Weeding": 0.05,
+        "Pesticide Spray": 0.075,
+        "Storage": 0.15,
+        "Threshing": 0.05
+      },
+      "Ernakulam_Tapioca": {
+        "Sowing": 0.08333333333333333,
+        "Irrigation": 0.25,
+        "Ploughing": 0.1111111111111111,
+        "Pesticide Spray": 0.027777777777777776,
+        "Weeding": 0.1388888888888889,
+        "Fertilizer Application": 0.05555555555555555,
+        "Threshing": 0.1111111111111111,
+        "Harvesting": 0.19444444444444445,
+        "Storage": 0.027777777777777776
+      },
+      "Kozhikode_Vegetables": {
+        "Pesticide Spray": 0.10810810810810811,
+        "Irrigation": 0.2972972972972973,
+        "Ploughing": 0.10810810810810811,
+        "Sowing": 0.06756756756756757,
+        "Weeding": 0.06756756756756757,
+        "Fertilizer Application": 0.06756756756756757,
+        "Storage": 0.05405405405405406,
+        "Harvesting": 0.10810810810810811,
+        "Threshing": 0.12162162162162163
+      },
+      "Alappuzha_Coffee": {
+        "Ploughing": 0.18421052631578946,
+        "Irrigation": 0.15789473684210525,
+        "Sowing": 0.02631578947368421,
+        "Fertilizer Application": 0.10526315789473684,
+        "Storage": 0.07894736842105263,
+        "Pesticide Spray": 0.18421052631578946,
+        "Harvesting": 0.13157894736842105,
+        "Threshing": 0.13157894736842105
+      },
+      "Pathanamthitta_Coconut": {
+        "Irrigation": 0.2222222222222222,
+        "Sowing": 0.14814814814814814,
+        "Ploughing": 0.18518518518518517,
+        "Pesticide Spray": 0.07407407407407407,
+        "Weeding": 0.037037037037037035,
+        "Fertilizer Application": 0.07407407407407407,
+        "Threshing": 0.1111111111111111,
+        "Harvesting": 0.037037037037037035,
+        "Storage": 0.1111111111111111
+      },
+      "Kollam_Pepper": {
+        "Sowing": 0.0851063829787234,
+        "Ploughing": 0.10638297872340426,
+        "Irrigation": 0.19148936170212766,
+        "Weeding": 0.14893617021276595,
+        "Fertilizer Application": 0.06382978723404255,
+        "Pesticide Spray": 0.06382978723404255,
+        "Threshing": 0.10638297872340426,
+        "Harvesting": 0.14893617021276595,
+        "Storage": 0.0851063829787234
+      },
+      "Thrissur_Coffee": {
+        "Irrigation": 0.28205128205128205,
+        "Pesticide Spray": 0.15384615384615385,
+        "Ploughing": 0.07692307692307693,
+        "Sowing": 0.05128205128205128,
+        "Fertilizer Application": 0.02564102564102564,
+        "Weeding": 0.05128205128205128,
+        "Threshing": 0.07692307692307693,
+        "Harvesting": 0.1794871794871795,
+        "Storage": 0.10256410256410256
+      },
+      "Kottayam_Pepper": {
+        "Irrigation": 0.26,
+        "Ploughing": 0.14,
+        "Sowing": 0.08,
+        "Pesticide Spray": 0.12,
+        "Weeding": 0.08,
+        "Fertilizer Application": 0.06,
+        "Harvesting": 0.1,
+        "Storage": 0.14,
+        "Threshing": 0.02
+      },
+      "Malappuram_Rubber": {
+        "Ploughing": 0.12987012987012986,
+        "Irrigation": 0.19480519480519481,
+        "Sowing": 0.06493506493506493,
+        "Fertilizer Application": 0.09090909090909091,
+        "Pesticide Spray": 0.11688311688311688,
+        "Weeding": 0.09090909090909091,
+        "Harvesting": 0.07792207792207792,
+        "Threshing": 0.12987012987012986,
+        "Storage": 0.1038961038961039
+      },
+      "Kottayam_Rubber": {
+        "Weeding": 0.18604651162790697,
+        "Fertilizer Application": 0.11627906976744186,
+        "Ploughing": 0.023255813953488372,
+        "Sowing": 0.06976744186046512,
+        "Irrigation": 0.32558139534883723,
+        "Pesticide Spray": 0.023255813953488372,
+        "Storage": 0.13953488372093023,
+        "Harvesting": 0.046511627906976744,
+        "Threshing": 0.06976744186046512
+      },
+      "Malappuram_Vegetables": {
+        "Sowing": 0.13636363636363635,
+        "Ploughing": 0.25,
+        "Irrigation": 0.13636363636363635,
+        "Weeding": 0.11363636363636363,
+        "Fertilizer Application": 0.06818181818181818,
+        "Harvesting": 0.20454545454545456,
+        "Storage": 0.09090909090909091
+      },
+      "Idukki_Rubber": {
+        "Irrigation": 0.27586206896551724,
+        "Sowing": 0.1724137931034483,
+        "Weeding": 0.10344827586206896,
+        "Fertilizer Application": 0.10344827586206896,
+        "Storage": 0.13793103448275862,
+        "Pesticide Spray": 0.034482758620689655,
+        "Harvesting": 0.13793103448275862,
+        "Threshing": 0.034482758620689655
+      },
+      "Kollam_Banana": {
+        "Ploughing": 0.0963855421686747,
+        "Irrigation": 0.25301204819277107,
+        "Sowing": 0.14457831325301204,
+        "Fertilizer Application": 0.13253012048192772,
+        "Storage": 0.14457831325301204,
+        "Harvesting": 0.10843373493975904,
+        "Threshing": 0.024096385542168676,
+        "Pesticide Spray": 0.060240963855421686,
+        "Weeding": 0.03614457831325301
+      },
+      "Malappuram_Tapioca": {
+        "Irrigation": 0.3157894736842105,
+        "Ploughing": 0.13157894736842105,
+        "Harvesting": 0.13157894736842105,
+        "Fertilizer Application": 0.05263157894736842,
+        "Sowing": 0.07894736842105263,
+        "Storage": 0.2894736842105263
+      },
+      "Thiruvananthapuram_Tapioca": {
+        "Irrigation": 0.2926829268292683,
+        "Ploughing": 0.12195121951219512,
+        "Storage": 0.24390243902439024,
+        "Harvesting": 0.0975609756097561,
+        "Fertilizer Application": 0.12195121951219512,
+        "Sowing": 0.12195121951219512
+      },
+      "Alappuzha_Paddy": {
+        "Ploughing": 0.1165644171779141,
+        "Sowing": 0.12269938650306748,
+        "Irrigation": 0.1656441717791411,
+        "Pesticide Spray": 0.07975460122699386,
+        "Weeding": 0.07975460122699386,
+        "Fertilizer Application": 0.0736196319018405,
+        "Harvesting": 0.1656441717791411,
+        "Threshing": 0.0736196319018405,
+        "Storage": 0.12269938650306748
+      },
+      "Ernakulam_Arecanut": {
+        "Ploughing": 0.11538461538461539,
+        "Sowing": 0.12307692307692308,
+        "Irrigation": 0.19230769230769232,
+        "Fertilizer Application": 0.07692307692307693,
+        "Harvesting": 0.12307692307692308,
+        "Pesticide Spray": 0.06153846153846154,
+        "Weeding": 0.1,
+        "Storage": 0.09230769230769231,
+        "Threshing": 0.11538461538461539
+      },
+      "Kollam_Rubber": {
+        "Ploughing": 0.07692307692307693,
+        "Irrigation": 0.10256410256410256,
+        "Sowing": 0.1794871794871795,
+        "Storage": 0.10256410256410256,
+        "Pesticide Spray": 0.07692307692307693,
+        "Fertilizer Application": 0.07692307692307693,
+        "Weeding": 0.10256410256410256,
+        "Threshing": 0.10256410256410256,
+        "Harvesting": 0.1794871794871795
+      },
+      "Ernakulam_Coffee": {
+        "Fertilizer Application": 0.08571428571428572,
+        "Sowing": 0.08571428571428572,
+        "Irrigation": 0.14285714285714285,
+        "Ploughing": 0.14285714285714285,
+        "Weeding": 0.14285714285714285,
+        "Pesticide Spray": 0.08571428571428572,
+        "Storage": 0.05714285714285714,
+        "Harvesting": 0.17142857142857143,
+        "Threshing": 0.08571428571428572
+      },
+      "Kannur_Banana": {
+        "Sowing": 0.14285714285714285,
+        "Ploughing": 0.16666666666666666,
+        "Irrigation": 0.21428571428571427,
+        "Fertilizer Application": 0.09523809523809523,
+        "Weeding": 0.09523809523809523,
+        "Pesticide Spray": 0.023809523809523808,
+        "Harvesting": 0.11904761904761904,
+        "Storage": 0.047619047619047616,
+        "Threshing": 0.09523809523809523
+      },
+      "Alappuzha_Arecanut": {
+        "Ploughing": 0.0851063829787234,
+        "Irrigation": 0.19148936170212766,
+        "Sowing": 0.14893617021276595,
+        "Weeding": 0.14893617021276595,
+        "Pesticide Spray": 0.10638297872340426,
+        "Fertilizer Application": 0.02127659574468085,
+        "Storage": 0.0425531914893617,
+        "Harvesting": 0.19148936170212766,
+        "Threshing": 0.06382978723404255
+      },
+      "Pathanamthitta_Banana": {
+        "Irrigation": 0.25,
+        "Threshing": 0.10526315789473684,
+        "Sowing": 0.13157894736842105,
+        "Ploughing": 0.09210526315789473,
+        "Fertilizer Application": 0.06578947368421052,
+        "Weeding": 0.039473684210526314,
+        "Pesticide Spray": 0.13157894736842105,
+        "Harvesting": 0.10526315789473684,
+        "Storage": 0.07894736842105263
+      },
+      "Kasaragod_Coffee": {
+        "Irrigation": 0.29411764705882354,
+        "Ploughing": 0.07058823529411765,
+        "Sowing": 0.047058823529411764,
+        "Weeding": 0.058823529411764705,
+        "Pesticide Spray": 0.10588235294117647,
+        "Fertilizer Application": 0.058823529411764705,
+        "Harvesting": 0.18823529411764706,
+        "Threshing": 0.10588235294117647,
+        "Storage": 0.07058823529411765
+      },
+      "Wayanad_Cashew": {
+        "Sowing": 0.12,
+        "Ploughing": 0.14666666666666667,
+        "Irrigation": 0.17333333333333334,
+        "Weeding": 0.08,
+        "Pesticide Spray": 0.06666666666666667,
+        "Threshing": 0.13333333333333333,
+        "Fertilizer Application": 0.08,
+        "Harvesting": 0.09333333333333334,
+        "Storage": 0.10666666666666667
+      },
+      "Palakkad_Paddy": {
+        "Ploughing": 0.1282051282051282,
+        "Fertilizer Application": 0.10256410256410256,
+        "Sowing": 0.1794871794871795,
+        "Irrigation": 0.07692307692307693,
+        "Weeding": 0.15384615384615385,
+        "Storage": 0.1794871794871795,
+        "Harvesting": 0.1794871794871795
+      },
+      "Alappuzha_Cashew": {
+        "Sowing": 0.12195121951219512,
+        "Irrigation": 0.2682926829268293,
+        "Weeding": 0.024390243902439025,
+        "Ploughing": 0.04878048780487805,
+        "Pesticide Spray": 0.0975609756097561,
+        "Fertilizer Application": 0.14634146341463414,
+        "Storage": 0.14634146341463414,
+        "Harvesting": 0.14634146341463414
+      },
+      "Alappuzha_Coconut": {
+        "Sowing": 0.11627906976744186,
+        "Ploughing": 0.09302325581395349,
+        "Fertilizer Application": 0.09302325581395349,
+        "Harvesting": 0.13953488372093023,
+        "Irrigation": 0.16279069767441862,
+        "Pesticide Spray": 0.06976744186046512,
+        "Weeding": 0.16279069767441862,
+        "Storage": 0.13953488372093023,
+        "Threshing": 0.023255813953488372
+      },
+      "Wayanad_Banana": {
+        "Sowing": 0.12903225806451613,
+        "Irrigation": 0.16129032258064516,
+        "Threshing": 0.16129032258064516,
+        "Ploughing": 0.03225806451612903,
+        "Weeding": 0.0967741935483871,
+        "Fertilizer Application": 0.0967741935483871,
+        "Pesticide Spray": 0.0967741935483871,
+        "Storage": 0.12903225806451613,
+        "Harvesting": 0.0967741935483871
+      },
+      "Kasaragod_Vegetables": {
+        "Ploughing": 0.2,
+        "Irrigation": 0.34285714285714286,
+        "Sowing": 0.08571428571428572,
+        "Harvesting": 0.17142857142857143,
+        "Fertilizer Application": 0.11428571428571428,
+        "Storage": 0.08571428571428572
+      },
+      "Ernakulam_Cashew": {
+        "Sowing": 0.08333333333333333,
+        "Ploughing": 0.16666666666666666,
+        "Irrigation": 0.1388888888888889,
+        "Weeding": 0.1111111111111111,
+        "Fertilizer Application": 0.1388888888888889,
+        "Pesticide Spray": 0.027777777777777776,
+        "Storage": 0.08333333333333333,
+        "Threshing": 0.08333333333333333,
+        "Harvesting": 0.16666666666666666
+      },
+      "Kollam_Tapioca": {
+        "Irrigation": 0.21428571428571427,
+        "Sowing": 0.10317460317460317,
+        "Ploughing": 0.1111111111111111,
+        "Pesticide Spray": 0.07936507936507936,
+        "Weeding": 0.0873015873015873,
+        "Threshing": 0.07142857142857142,
+        "Fertilizer Application": 0.07142857142857142,
+        "Storage": 0.15079365079365079,
+        "Harvesting": 0.1111111111111111
+      },
+      "Kottayam_Coffee": {
+        "Irrigation": 0.10869565217391304,
+        "Sowing": 0.1956521739130435,
+        "Ploughing": 0.10869565217391304,
+        "Threshing": 0.06521739130434782,
+        "Pesticide Spray": 0.13043478260869565,
+        "Weeding": 0.08695652173913043,
+        "Fertilizer Application": 0.021739130434782608,
+        "Harvesting": 0.13043478260869565,
+        "Storage": 0.15217391304347827
+      },
+      "Malappuram_Coffee": {
+        "Ploughing": 0.1875,
+        "Irrigation": 0.125,
+        "Sowing": 0.08333333333333333,
+        "Fertilizer Application": 0.10416666666666667,
+        "Pesticide Spray": 0.0625,
+        "Weeding": 0.10416666666666667,
+        "Harvesting": 0.14583333333333334,
+        "Threshing": 0.041666666666666664,
+        "Storage": 0.14583333333333334
+      },
+      "Pathanamthitta_Vegetables": {
+        "Irrigation": 0.3835616438356164,
+        "Ploughing": 0.1095890410958904,
+        "Sowing": 0.0958904109589041,
+        "Fertilizer Application": 0.1232876712328767,
+        "Storage": 0.1506849315068493,
+        "Harvesting": 0.136986301369863
+      },
+      "Kasaragod_Tapioca": {
+        "Ploughing": 0.28205128205128205,
+        "Irrigation": 0.23076923076923078,
+        "Sowing": 0.1282051282051282,
+        "Fertilizer Application": 0.07692307692307693,
+        "Storage": 0.1282051282051282,
+        "Harvesting": 0.15384615384615385
+      },
+      "Palakkad_Pepper": {
+        "Ploughing": 0.09826589595375723,
+        "Irrigation": 0.2138728323699422,
+        "Pesticide Spray": 0.05202312138728324,
+        "Sowing": 0.11560693641618497,
+        "Fertilizer Application": 0.10404624277456648,
+        "Weeding": 0.046242774566473986,
+        "Harvesting": 0.14450867052023122,
+        "Threshing": 0.10404624277456648,
+        "Storage": 0.12138728323699421
+      },
+      "Kollam_Coconut": {
+        "Irrigation": 0.20588235294117646,
+        "Ploughing": 0.14705882352941177,
+        "Sowing": 0.14705882352941177,
+        "Fertilizer Application": 0.08823529411764706,
+        "Storage": 0.20588235294117646,
+        "Harvesting": 0.20588235294117646
+      },
+      "Thrissur_Vegetables": {
+        "Ploughing": 0.23809523809523808,
+        "Sowing": 0.14285714285714285,
+        "Fertilizer Application": 0.16666666666666666,
+        "Weeding": 0.07142857142857142,
+        "Irrigation": 0.14285714285714285,
+        "Harvesting": 0.11904761904761904,
+        "Storage": 0.11904761904761904
+      },
+      "Kottayam_Coconut": {
+        "Ploughing": 0.10416666666666667,
+        "Sowing": 0.125,
+        "Irrigation": 0.20833333333333334,
+        "Pesticide Spray": 0.08333333333333333,
+        "Weeding": 0.08333333333333333,
+        "Fertilizer Application": 0.0625,
+        "Storage": 0.16666666666666666,
+        "Harvesting": 0.10416666666666667,
+        "Threshing": 0.0625
+      },
+      "Wayanad_Arecanut": {
+        "Ploughing": 0.05405405405405406,
+        "Irrigation": 0.21621621621621623,
+        "Sowing": 0.13513513513513514,
+        "Pesticide Spray": 0.13513513513513514,
+        "Fertilizer Application": 0.05405405405405406,
+        "Weeding": 0.05405405405405406,
+        "Threshing": 0.13513513513513514,
+        "Harvesting": 0.13513513513513514,
+        "Storage": 0.08108108108108109
+      },
+      "Thiruvananthapuram_Arecanut": {
+        "Ploughing": 0.175,
+        "Irrigation": 0.175,
+        "Sowing": 0.1,
+        "Weeding": 0.05,
+        "Fertilizer Application": 0.1,
+        "Pesticide Spray": 0.05,
+        "Threshing": 0.125,
+        "Storage": 0.175,
+        "Harvesting": 0.05
+      },
+      "Wayanad_Coconut": {
+        "Ploughing": 0.17391304347826086,
+        "Irrigation": 0.2391304347826087,
+        "Sowing": 0.15217391304347827,
+        "Fertilizer Application": 0.17391304347826086,
+        "Storage": 0.13043478260869565,
+        "Harvesting": 0.13043478260869565
+      },
+      "Kottayam_Banana": {
+        "Ploughing": 0.11904761904761904,
+        "Weeding": 0.07142857142857142,
+        "Sowing": 0.14285714285714285,
+        "Irrigation": 0.19047619047619047,
+        "Harvesting": 0.14285714285714285,
+        "Pesticide Spray": 0.07142857142857142,
+        "Fertilizer Application": 0.11904761904761904,
+        "Threshing": 0.047619047619047616,
+        "Storage": 0.09523809523809523
+      },
+      "Thrissur_Paddy": {
+        "Ploughing": 0.16216216216216217,
+        "Sowing": 0.10810810810810811,
+        "Fertilizer Application": 0.08108108108108109,
+        "Weeding": 0.16216216216216217,
+        "Irrigation": 0.08108108108108109,
+        "Harvesting": 0.21621621621621623,
+        "Storage": 0.1891891891891892
+      },
+      "Alappuzha_Pepper": {
+        "Ploughing": 0.175,
+        "Sowing": 0.15,
+        "Irrigation": 0.175,
+        "Pesticide Spray": 0.1,
+        "Weeding": 0.025,
+        "Fertilizer Application": 0.025,
+        "Storage": 0.15,
+        "Threshing": 0.075,
+        "Harvesting": 0.125
+      },
+      "Kottayam_Tapioca": {
+        "Irrigation": 0.15217391304347827,
+        "Sowing": 0.13043478260869565,
+        "Fertilizer Application": 0.15217391304347827,
+        "Storage": 0.13043478260869565,
+        "Pesticide Spray": 0.06521739130434782,
+        "Weeding": 0.06521739130434782,
+        "Ploughing": 0.021739130434782608,
+        "Harvesting": 0.17391304347826086,
+        "Threshing": 0.10869565217391304
+      },
+      "Thiruvananthapuram_Pepper": {
+        "Ploughing": 0.07317073170731707,
+        "Sowing": 0.12195121951219512,
+        "Irrigation": 0.21951219512195122,
+        "Weeding": 0.04878048780487805,
+        "Harvesting": 0.21951219512195122,
+        "Pesticide Spray": 0.07317073170731707,
+        "Fertilizer Application": 0.0975609756097561,
+        "Threshing": 0.12195121951219512,
+        "Storage": 0.024390243902439025
+      },
+      "Thrissur_Coconut": {
+        "Ploughing": 0.29411764705882354,
+        "Irrigation": 0.17647058823529413,
+        "Harvesting": 0.08823529411764706,
+        "Sowing": 0.17647058823529413,
+        "Fertilizer Application": 0.08823529411764706,
+        "Storage": 0.17647058823529413
+      },
+      "Kasaragod_Arecanut": {
+        "Ploughing": 0.125,
+        "Sowing": 0.075,
+        "Irrigation": 0.2,
+        "Pesticide Spray": 0.05,
+        "Fertilizer Application": 0.075,
+        "Weeding": 0.05,
+        "Storage": 0.15,
+        "Harvesting": 0.125,
+        "Threshing": 0.15
+      },
+      "Kollam_Vegetables": {
+        "Ploughing": 0.21428571428571427,
+        "Sowing": 0.14285714285714285,
+        "Weeding": 0.047619047619047616,
+        "Irrigation": 0.16666666666666666,
+        "Fertilizer Application": 0.09523809523809523,
+        "Harvesting": 0.09523809523809523,
+        "Storage": 0.23809523809523808
+      },
+      "Pathanamthitta_Paddy": {
+        "Sowing": 0.12903225806451613,
+        "Ploughing": 0.12903225806451613,
+        "Fertilizer Application": 0.0967741935483871,
+        "Weeding": 0.1935483870967742,
+        "Harvesting": 0.0967741935483871,
+        "Irrigation": 0.06451612903225806,
+        "Storage": 0.2903225806451613
+      },
+      "Kasaragod_Paddy": {
+        "Irrigation": 0.19148936170212766,
+        "Sowing": 0.1702127659574468,
+        "Ploughing": 0.06382978723404255,
+        "Threshing": 0.0425531914893617,
+        "Fertilizer Application": 0.0851063829787234,
+        "Pesticide Spray": 0.10638297872340426,
+        "Harvesting": 0.2127659574468085,
+        "Weeding": 0.0425531914893617,
+        "Storage": 0.0851063829787234
+      },
+      "Kannur_Rubber": {
+        "Irrigation": 0.25,
+        "Sowing": 0.08333333333333333,
+        "Ploughing": 0.05555555555555555,
+        "Fertilizer Application": 0.08333333333333333,
+        "Weeding": 0.08333333333333333,
+        "Pesticide Spray": 0.1111111111111111,
+        "Threshing": 0.08333333333333333,
+        "Harvesting": 0.08333333333333333,
+        "Storage": 0.16666666666666666
+      },
+      "Alappuzha_Banana": {
+        "Ploughing": 0.21739130434782608,
+        "Irrigation": 0.21739130434782608,
+        "Sowing": 0.17391304347826086,
+        "Fertilizer Application": 0.13043478260869565,
+        "Storage": 0.1956521739130435,
+        "Harvesting": 0.06521739130434782
+      },
+      "Idukki_Arecanut": {
+        "Sowing": 0.13953488372093023,
+        "Irrigation": 0.18604651162790697,
+        "Ploughing": 0.18604651162790697,
+        "Weeding": 0.09302325581395349,
+        "Pesticide Spray": 0.09302325581395349,
+        "Fertilizer Application": 0.046511627906976744,
+        "Harvesting": 0.11627906976744186,
+        "Storage": 0.06976744186046512,
+        "Threshing": 0.06976744186046512
+      },
+      "Ernakulam_Banana": {
+        "Irrigation": 0.275,
+        "Ploughing": 0.125,
+        "Fertilizer Application": 0.2,
+        "Sowing": 0.075,
+        "Harvesting": 0.25,
+        "Storage": 0.075
+      },
+      "Idukki_Paddy": {
+        "Sowing": 0.14634146341463414,
+        "Irrigation": 0.2682926829268293,
+        "Ploughing": 0.0975609756097561,
+        "Pesticide Spray": 0.0975609756097561,
+        "Weeding": 0.07317073170731707,
+        "Fertilizer Application": 0.04878048780487805,
+        "Storage": 0.0975609756097561,
+        "Harvesting": 0.0975609756097561,
+        "Threshing": 0.07317073170731707
+      },
+      "Thiruvananthapuram_Banana": {
+        "Irrigation": 0.2894736842105263,
+        "Ploughing": 0.15789473684210525,
+        "Sowing": 0.10526315789473684,
+        "Fertilizer Application": 0.13157894736842105,
+        "Storage": 0.18421052631578946,
+        "Harvesting": 0.13157894736842105
+      },
+      "Idukki_Coffee": {
+        "Irrigation": 0.21739130434782608,
+        "Threshing": 0.21739130434782608,
+        "Ploughing": 0.1956521739130435,
+        "Sowing": 0.043478260869565216,
+        "Fertilizer Application": 0.15217391304347827,
+        "Pesticide Spray": 0.043478260869565216,
+        "Weeding": 0.043478260869565216,
+        "Harvesting": 0.06521739130434782,
+        "Storage": 0.021739130434782608
+      },
+      "Thiruvananthapuram_Coffee": {
+        "Sowing": 0.044444444444444446,
+        "Ploughing": 0.1111111111111111,
+        "Irrigation": 0.2222222222222222,
+        "Fertilizer Application": 0.13333333333333333,
+        "Weeding": 0.06666666666666667,
+        "Pesticide Spray": 0.06666666666666667,
+        "Threshing": 0.15555555555555556,
+        "Storage": 0.1111111111111111,
+        "Harvesting": 0.08888888888888889
+      }
+    },
+    "soil_crop": {
+      "Loamy_Pepper": {
+        "Sowing": 0.13043478260869565,
+        "Pesticide Spray": 0.05928853754940711,
+        "Ploughing": 0.09090909090909091,
+        "Irrigation": 0.2015810276679842,
+        "Fertilizer Application": 0.09881422924901186,
+        "Weeding": 0.05928853754940711,
+        "Storage": 0.11462450592885376,
+        "Harvesting": 0.15019762845849802,
+        "Threshing": 0.09486166007905138
+      },
+      "Laterite_Rubber": {
+        "Irrigation": 0.21621621621621623,
+        "Ploughing": 0.1554054054054054,
+        "Sowing": 0.08783783783783784,
+        "Pesticide Spray": 0.0945945945945946,
+        "Weeding": 0.07432432432432433,
+        "Threshing": 0.10135135135135136,
+        "Fertilizer Application": 0.060810810810810814,
+        "Storage": 0.11486486486486487,
+        "Harvesting": 0.0945945945945946
+      },
+      "Sandy_Coconut": {
+        "Irrigation": 0.2209737827715356,
+        "Ploughing": 0.14606741573033707,
+        "Threshing": 0.033707865168539325,
+        "Weeding": 0.056179775280898875,
+        "Sowing": 0.13108614232209737,
+        "Harvesting": 0.13857677902621723,
+        "Fertilizer Application": 0.10112359550561797,
+        "Pesticide Spray": 0.02247191011235955,
+        "Storage": 0.149812734082397
+      },
+      "Laterite_Pepper": {
+        "Sowing": 0.102803738317757,
+        "Ploughing": 0.11682242990654206,
+        "Irrigation": 0.205607476635514,
+        "Threshing": 0.07476635514018691,
+        "Fertilizer Application": 0.07476635514018691,
+        "Pesticide Spray": 0.09813084112149532,
+        "Weeding": 0.07476635514018691,
+        "Harvesting": 0.14018691588785046,
+        "Storage": 0.11214953271028037
+      },
+      "Clayey_Paddy": {
+        "Ploughing": 0.10743801652892562,
+        "Weeding": 0.10743801652892562,
+        "Sowing": 0.1652892561983471,
+        "Storage": 0.14049586776859505,
+        "Irrigation": 0.1322314049586777,
+        "Fertilizer Application": 0.09917355371900827,
+        "Harvesting": 0.17355371900826447,
+        "Pesticide Spray": 0.04132231404958678,
+        "Threshing": 0.03305785123966942
+      },
+      "Sandy_Tapioca": {
+        "Irrigation": 0.2459016393442623,
+        "Sowing": 0.1092896174863388,
+        "Ploughing": 0.13387978142076504,
+        "Weeding": 0.03825136612021858,
+        "Pesticide Spray": 0.03278688524590164,
+        "Fertilizer Application": 0.09289617486338798,
+        "Harvesting": 0.15300546448087432,
+        "Threshing": 0.05737704918032787,
+        "Storage": 0.1366120218579235
+      },
+      "Laterite_Banana": {
+        "Irrigation": 0.23255813953488372,
+        "Sowing": 0.16279069767441862,
+        "Ploughing": 0.06976744186046512,
+        "Pesticide Spray": 0.06976744186046512,
+        "Fertilizer Application": 0.16279069767441862,
+        "Harvesting": 0.16279069767441862,
+        "Storage": 0.09302325581395349,
+        "Threshing": 0.046511627906976744
+      },
+      "Laterite_Cashew": {
+        "Ploughing": 0.14102564102564102,
+        "Threshing": 0.1452991452991453,
+        "Sowing": 0.09401709401709402,
+        "Storage": 0.11538461538461539,
+        "Irrigation": 0.1581196581196581,
+        "Weeding": 0.0811965811965812,
+        "Fertilizer Application": 0.09829059829059829,
+        "Pesticide Spray": 0.05982905982905983,
+        "Harvesting": 0.10683760683760683
+      },
+      "Loamy_Tapioca": {
+        "Ploughing": 0.12121212121212122,
+        "Sowing": 0.06060606060606061,
+        "Threshing": 0.15151515151515152,
+        "Irrigation": 0.24242424242424243,
+        "Pesticide Spray": 0.12121212121212122,
+        "Fertilizer Application": 0.09090909090909091,
+        "Harvesting": 0.12121212121212122,
+        "Storage": 0.06060606060606061,
+        "Weeding": 0.030303030303030304
+      },
+      "Loamy_Banana": {
+        "Irrigation": 0.24362606232294617,
+        "Ploughing": 0.1388101983002833,
+        "Storage": 0.13031161473087818,
+        "Fertilizer Application": 0.12464589235127478,
+        "Sowing": 0.1359773371104816,
+        "Harvesting": 0.1501416430594901,
+        "Threshing": 0.0339943342776204,
+        "Weeding": 0.0226628895184136,
+        "Pesticide Spray": 0.019830028328611898
+      },
+      "Loamy_Arecanut": {
+        "Ploughing": 0.125,
+        "Harvesting": 0.11875,
+        "Irrigation": 0.19375,
+        "Fertilizer Application": 0.075,
+        "Sowing": 0.1,
+        "Weeding": 0.0625,
+        "Pesticide Spray": 0.075,
+        "Storage": 0.14375,
+        "Threshing": 0.10625
+      },
+      "Alluvial_Vegetables": {
+        "Pesticide Spray": 0.041025641025641026,
+        "Irrigation": 0.2358974358974359,
+        "Ploughing": 0.16923076923076924,
+        "Sowing": 0.10256410256410256,
+        "Weeding": 0.06666666666666667,
+        "Fertilizer Application": 0.10256410256410256,
+        "Storage": 0.09743589743589744,
+        "Harvesting": 0.13846153846153847,
+        "Threshing": 0.046153846153846156
+      },
+      "Laterite_Coffee": {
+        "Ploughing": 0.13392857142857142,
+        "Irrigation": 0.19642857142857142,
+        "Sowing": 0.05357142857142857,
+        "Fertilizer Application": 0.07142857142857142,
+        "Storage": 0.08035714285714286,
+        "Pesticide Spray": 0.14285714285714285,
+        "Harvesting": 0.16071428571428573,
+        "Threshing": 0.09821428571428571,
+        "Weeding": 0.0625
+      },
+      "Laterite_Coconut": {
+        "Irrigation": 0.19078947368421054,
+        "Sowing": 0.13815789473684212,
+        "Ploughing": 0.15789473684210525,
+        "Pesticide Spray": 0.05921052631578947,
+        "Weeding": 0.07894736842105263,
+        "Fertilizer Application": 0.07894736842105263,
+        "Threshing": 0.046052631578947366,
+        "Harvesting": 0.09868421052631579,
+        "Storage": 0.1513157894736842
+      },
+      "Loamy_Rubber": {
+        "Weeding": 0.14634146341463414,
+        "Fertilizer Application": 0.0975609756097561,
+        "Ploughing": 0.04878048780487805,
+        "Sowing": 0.12195121951219512,
+        "Irrigation": 0.21951219512195122,
+        "Pesticide Spray": 0.04878048780487805,
+        "Storage": 0.12195121951219512,
+        "Harvesting": 0.10975609756097561,
+        "Threshing": 0.08536585365853659
+      },
+      "Clayey_Rubber": {
+        "Irrigation": 0.27586206896551724,
+        "Sowing": 0.1724137931034483,
+        "Weeding": 0.10344827586206896,
+        "Fertilizer Application": 0.10344827586206896,
+        "Storage": 0.13793103448275862,
+        "Pesticide Spray": 0.034482758620689655,
+        "Harvesting": 0.13793103448275862,
+        "Threshing": 0.034482758620689655
+      },
+      "Alluvial_Banana": {
+        "Ploughing": 0.1130952380952381,
+        "Irrigation": 0.23214285714285715,
+        "Sowing": 0.13690476190476192,
+        "Fertilizer Application": 0.10119047619047619,
+        "Storage": 0.10714285714285714,
+        "Harvesting": 0.11904761904761904,
+        "Weeding": 0.047619047619047616,
+        "Pesticide Spray": 0.08928571428571429,
+        "Threshing": 0.05357142857142857
+      },
+      "Clayey_Tapioca": {
+        "Irrigation": 0.2926829268292683,
+        "Ploughing": 0.12195121951219512,
+        "Storage": 0.24390243902439024,
+        "Harvesting": 0.0975609756097561,
+        "Fertilizer Application": 0.12195121951219512,
+        "Sowing": 0.12195121951219512
+      },
+      "Alluvial_Paddy": {
+        "Ploughing": 0.1076923076923077,
+        "Sowing": 0.13846153846153847,
+        "Irrigation": 0.1076923076923077,
+        "Pesticide Spray": 0.06153846153846154,
+        "Weeding": 0.12307692307692308,
+        "Fertilizer Application": 0.07692307692307693,
+        "Harvesting": 0.2,
+        "Threshing": 0.02564102564102564,
+        "Storage": 0.15897435897435896
+      },
+      "Laterite_Arecanut": {
+        "Ploughing": 0.13529411764705881,
+        "Sowing": 0.12941176470588237,
+        "Irrigation": 0.18235294117647058,
+        "Fertilizer Application": 0.07058823529411765,
+        "Harvesting": 0.12941176470588237,
+        "Pesticide Spray": 0.07058823529411765,
+        "Weeding": 0.08823529411764706,
+        "Storage": 0.08235294117647059,
+        "Threshing": 0.11176470588235295
+      },
+      "Loamy_Paddy": {
+        "Ploughing": 0.21621621621621623,
+        "Sowing": 0.10810810810810811,
+        "Irrigation": 0.24324324324324326,
+        "Pesticide Spray": 0.02702702702702703,
+        "Fertilizer Application": 0.08108108108108109,
+        "Weeding": 0.05405405405405406,
+        "Threshing": 0.13513513513513514,
+        "Storage": 0.10810810810810811,
+        "Harvesting": 0.02702702702702703
+      },
+      "Clayey_Arecanut": {
+        "Ploughing": 0.0851063829787234,
+        "Irrigation": 0.19148936170212766,
+        "Sowing": 0.14893617021276595,
+        "Weeding": 0.14893617021276595,
+        "Pesticide Spray": 0.10638297872340426,
+        "Fertilizer Application": 0.02127659574468085,
+        "Storage": 0.0425531914893617,
+        "Harvesting": 0.19148936170212766,
+        "Threshing": 0.06382978723404255
+      },
+      "Loamy_Coffee": {
+        "Irrigation": 0.1813186813186813,
+        "Ploughing": 0.12087912087912088,
+        "Sowing": 0.0989010989010989,
+        "Weeding": 0.08241758241758242,
+        "Pesticide Spray": 0.09340659340659341,
+        "Fertilizer Application": 0.08791208791208792,
+        "Harvesting": 0.14835164835164835,
+        "Threshing": 0.07692307692307693,
+        "Storage": 0.10989010989010989
+      },
+      "Sandy_Cashew": {
+        "Sowing": 0.12195121951219512,
+        "Irrigation": 0.2682926829268293,
+        "Weeding": 0.024390243902439025,
+        "Ploughing": 0.04878048780487805,
+        "Pesticide Spray": 0.0975609756097561,
+        "Fertilizer Application": 0.14634146341463414,
+        "Storage": 0.14634146341463414,
+        "Harvesting": 0.14634146341463414
+      },
+      "Alluvial_Coffee": {
+        "Irrigation": 0.26136363636363635,
+        "Ploughing": 0.13636363636363635,
+        "Storage": 0.06818181818181818,
+        "Sowing": 0.03409090909090909,
+        "Threshing": 0.19318181818181818,
+        "Fertilizer Application": 0.09090909090909091,
+        "Pesticide Spray": 0.06818181818181818,
+        "Weeding": 0.045454545454545456,
+        "Harvesting": 0.10227272727272728
+      },
+      "Loamy_Vegetables": {
+        "Ploughing": 0.17391304347826086,
+        "Irrigation": 0.30434782608695654,
+        "Sowing": 0.11304347826086956,
+        "Harvesting": 0.13043478260869565,
+        "Fertilizer Application": 0.10434782608695652,
+        "Storage": 0.1565217391304348,
+        "Weeding": 0.017391304347826087
+      },
+      "Laterite_Tapioca": {
+        "Irrigation": 0.17582417582417584,
+        "Sowing": 0.0989010989010989,
+        "Ploughing": 0.07692307692307693,
+        "Pesticide Spray": 0.0989010989010989,
+        "Weeding": 0.08791208791208792,
+        "Threshing": 0.0989010989010989,
+        "Fertilizer Application": 0.0989010989010989,
+        "Storage": 0.14285714285714285,
+        "Harvesting": 0.12087912087912088
+      },
+      "Sandy_Rubber": {
+        "Irrigation": 0.25,
+        "Sowing": 0.08333333333333333,
+        "Ploughing": 0.05555555555555555,
+        "Fertilizer Application": 0.08333333333333333,
+        "Weeding": 0.08333333333333333,
+        "Pesticide Spray": 0.1111111111111111,
+        "Threshing": 0.08333333333333333,
+        "Harvesting": 0.08333333333333333,
+        "Storage": 0.16666666666666666
+      },
+      "Sandy_Paddy": {
+        "Sowing": 0.14634146341463414,
+        "Irrigation": 0.2682926829268293,
+        "Ploughing": 0.0975609756097561,
+        "Pesticide Spray": 0.0975609756097561,
+        "Weeding": 0.07317073170731707,
+        "Fertilizer Application": 0.04878048780487805,
+        "Storage": 0.0975609756097561,
+        "Harvesting": 0.0975609756097561,
+        "Threshing": 0.07317073170731707
+      }
+    }
+  },
+  "trained": true
+}

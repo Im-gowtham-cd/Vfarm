@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 30px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+    }
+    .video {
+      margin: 20px 0;
+    }
+    .video img {
+      max-width: 300px;
+      display: block;
+    }
+    .video-title {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>YouTube Video Search</h1>
+  <input type="text" id="query" placeholder="Search videos..." />
+  <button onclick="searchVideos()">Search</button>
+
+  <div id="results"></div>
+
+  <script>
+    const apiKey = 'AIzaSyCBJ37qPhiO9ftF83drC96ul9RXLwTMARI';
+
+    function searchVideos() {
+      const query = document.getElementById('query').value;
+      const resultsDiv = document.getElementById('results');
+      resultsDiv.innerHTML = 'Loading...';
+
+      fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=5&q=${encodeURIComponent(query)}&key=${apiKey}`)
+        .then(response => response.json())
+        .then(data => {
+          resultsDiv.innerHTML = '';
+
+          data.items.forEach(item => {
+            const videoId = item.id.videoId;
+            const title = item.snippet.title;
+            const thumbnail = item.snippet.thumbnails.medium.url;
+            const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
+
+            const videoDiv = document.createElement('div');
+            videoDiv.className = 'video';
+            videoDiv.innerHTML = `
+              <a href="${videoUrl}" target="_blank">
+                <img src="${thumbnail}" alt="${title}" />
+              </a>
+              <div class="video-title">${title}</div>
+            `;
+            resultsDiv.appendChild(videoDiv);
+          });
+        })
+        .catch(error => {
+          resultsDiv.innerHTML = 'Error fetching data';
+          console.error('Error:', error);
+        });
+    }
+  </script>
+
+</body>
+</html>
