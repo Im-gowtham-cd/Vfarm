@@ -82,7 +82,7 @@
             p:nth-child(2) {
                 font-family: 'Clash';
                 font-size: clamp(10px, 20px, 60px);
-                color: var(--button);
+                /* color: var(--button); */
                 margin-bottom: 4%;
                 width: 80%;
                 /* border: 1px solid ; */
@@ -131,21 +131,113 @@
         }
 
         .HomeImage {
-            border: 1px solid;
+            /* border: 1px solid; */
             grid-area: image;
             /* position: relative; */
             display: flex;
             place-content: center;
             align-items: center;
+            flex-direction: column;
 
-            p {
+            .HomeCaro {
                 height: 400px;
-                position: absolute;
+                /* position: absolute; */
                 width: 800px;
                 background: var(--bg);
                 border: 2px solid var(--button);
-                border-radius: 60px;
-                box-shadow: 5px 5px 1px 2px var(--button);
+                /* border-radius: 60px; */
+                box-shadow: 7px 7px 1px 2px var(--button);
+                display: flex;
+                align-items: center;
+
+                img {
+                    height: 80%;
+                    /* border: 1px solid black; */
+                    width: 400px;
+                }
+
+                ul {
+                    /* border: 1px solid; */
+                    width: 400px;
+                    height: 80%;
+
+                    p:nth-child(1) {
+                        font-family: 'Primor';
+                        color: var(--button);
+                        margin-top: 15%;
+                        font-weight: 800;
+                        font-size: clamp(20px, 30px, 10vh);
+                    }
+
+                    p:nth-child(2) {
+                        font-family: 'Clash';
+                        margin-top: 5%;
+                        height: 35%;
+                        width: 100%;
+                        /* border: 1px solid; */
+                    }
+
+                    span {
+                        width: 100%;
+                        /* border: 1px solid; */
+                        margin-top: 1%;
+                        display: flex;
+                        justify-content: end;
+
+                        button {
+                            border: 1px solid var(--button);
+                            background: transparent;
+                            color: var(--button);
+                            font-family: 'Clash';
+                            margin-right: 30px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 10px;
+                            border-radius: 100px;
+                            font-size: clamp(20px, 10vh, 20px);
+                            padding: 7px 20px;
+
+                            i {
+                                transform: rotate(45Deg);
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            div:nth-child(2) {
+                /* border: 2px solid var(--button); */
+                height: 30%;
+                width: 800px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 100px;
+
+                button {
+                    font-family: 'Clash';
+                    padding: 15px 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    font-size: clamp(15px, 10vh, 18px);
+                }
+
+                button:nth-child(1) {
+                    background: var(--button);
+                    color: var(--bg);
+                    border: 1px solid var(--button);
+                }
+
+                button:nth-child(2) {
+                    color: var(--button);
+                   background-color: var(--bg);
+                    border: 1px solid var(--button);
+                }
+
             }
 
             /* p:nth-child(1) {
