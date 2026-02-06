@@ -36,7 +36,9 @@ export default function App() {
 
                 </div>
                 <div className={HomeStyle.HomeImage}>
-
+                    <p></p>
+                    {/* <p></p>
+                    <p></p> */}
                 </div>
             </section>
         </div>

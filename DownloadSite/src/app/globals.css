@@ -13,6 +13,11 @@
     src: url('../../assests/fonts/PrimorStylish.otf');
 }
 
+@font-face {
+    font-family: "Clash";
+    src: url('../../assests/fonts/ClashDisplay.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
