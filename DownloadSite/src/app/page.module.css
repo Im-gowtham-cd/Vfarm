@@ -1,3 +1,57 @@
+.nav {
+    height: 10vh;
+    width: 90%;
+    /* border: 1px solid var(--button); */
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 10;
+    margin-left: 5%;
+    top: 0;
+    backdrop-filter: blur(10px);
+
+    h1 {
+        color: var(--button);
+        font-family: 'Primor';
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: clamp(15px, 10vh, 40px);
+    }
+
+    ul {
+        width: 35%;
+        border: 1px solid var(--button);
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        background: var(--hover);
+
+        a {
+            color: var(--button);
+            padding: 0;
+            background-color: transparent;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        font-family: 'Montserrat';
+        color: var(--bg);
+        background-color: var(--button);
+        padding: 15px 20px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        i {
+            font-size: 20px;
+        }
+    }
+}
+
 .HomeContainer {
     height: 100vh;
     width: 100vw;
@@ -5,72 +59,22 @@
     flex-direction: column;
     align-items: center;
 
-    nav {
-        height: 10%;
-        width: 90%;
-        /* border: 1px solid var(--button); */
-        display: flex;
-        align-items: end;
-        justify-content: space-between;
-
-        h1 {
-            color: var(--button);
-            font-family: 'Primor';
-            letter-spacing: 2px;
-            font-weight: 900;
-            font-size: clamp(15px, 10vh, 40px);
-        }
-
-        ul {
-            width: 35%;
-            border: 1px solid var(--button);
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            background: var(--hover);
-
-            a {
-                color: var(--button);
-                padding: 0;
-                background-color: transparent;
-            }
-        }
-
-        a {
-            text-decoration: none;
-            font-family: 'Montserrat';
-            color: var(--bg);
-            background-color: var(--button);
-            padding: 15px 20px;
-            border-radius: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-
-            i {
-                font-size: 20px;
-            }
-        }
-    }
-
     .Home {
-        height: 90%;
+        height: 60%;
         width: 90%;
         /* border: 1px solid; */
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-template-areas:
-            " context image"
-            " download image ";
+            " context image";
 
         .HomeContext {
             grid-area: context;
             /* border: 1px solid var(--button); */
             display: flex;
             flex-direction: column;
-            justify-content: end;
+            justify-content: center;
 
             p:nth-child(1) {
                 font-family: 'Primor';
@@ -137,18 +141,27 @@
             display: flex;
             place-content: center;
             align-items: center;
+            justify-content: center;
             flex-direction: column;
 
             .HomeCaro {
-                height: 400px;
+                height: 80%;
                 /* position: absolute; */
                 width: 800px;
-                background: var(--bg);
-                border: 2px solid var(--button);
-                /* border-radius: 60px; */
-                box-shadow: 7px 7px 1px 2px var(--button);
+                /* border: 1px solid; */
                 display: flex;
                 align-items: center;
+
+                .Card {
+                    height: 80%;
+                    width: 100%;
+                    align-items: center;
+                    display: flex;
+                    background: var(--bg);
+                    border: 2px solid var(--button);
+                    /* border-radius: 60px; */
+                    box-shadow: 7px 7px 1px 2px var(--button);
+                }
 
                 img {
                     height: 80%;
@@ -189,7 +202,7 @@
                             background: transparent;
                             color: var(--button);
                             font-family: 'Clash';
-                            margin-right: 30px;
+                            margin-right: 70px;
                             display: flex;
                             align-items: center;
                             justify-content: center;
@@ -207,142 +220,99 @@
                 }
             }
 
-            div:nth-child(2) {
-                /* border: 2px solid var(--button); */
-                height: 30%;
-                width: 800px;
-                display: flex;
-                align-items: center;
-                justify-content: start;
-                gap: 100px;
-
-                button {
-                    font-family: 'Clash';
-                    padding: 15px 30px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 10px;
-                    font-size: clamp(15px, 10vh, 18px);
-                }
-
-                button:nth-child(1) {
-                    background: var(--button);
-                    color: var(--bg);
-                    border: 1px solid var(--button);
-                }
-
-                button:nth-child(2) {
-                    color: var(--button);
-                   background-color: var(--bg);
-                    border: 1px solid var(--button);
-                }
-
-            }
-
-            /* p:nth-child(1) {
-                top: 50px;
-                left: 10px;
-            }
-
-            p:nth-child(2) {
-                bottom: 0;
-                background: var(--hover);
-                left: 350px;
-            }
-
-            p:nth-child(3) {
-                top: 60px;
-                left: 650px;
-            } */
-
         }
 
-        .HomeDownload {
-            grid-area: download;
-            position: relative;
-            height: 90%;
-            width: 77%;
-            /* background: var(--hover); */
-            overflow: hidden;
-            font-size: clamp(14px, 2vw, 22px);
+    }
+}
 
-            p {
-                font-family: 'Clash';
-                color: var(--button);
-                border: 1px solid var(--button);
-                width: fit-content;
-                padding: 10px 20px;
-                font-size: clamp(20px, 20px, 50px);
-                position: absolute;
-                border-radius: 50px;
-            }
 
-            p:nth-child(1) {
-                bottom: 90px;
-                left: 335px;
-                transform: rotate(-12deg);
-                z-index: 6;
-            }
+.DownloadContainer {
+    /* border: 2px solid var(--button); */
+    height: 100vh;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 100px;
 
-            p:nth-child(2) {
-                top: 180px;
-                left: 100px;
-                transform: rotate(5deg);
-                z-index: 5;
-            }
+    button {
+        font-family: 'Clash';
+        padding: 15px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: clamp(15px, 10vh, 18px);
+    }
 
-            p:nth-child(3) {
-                bottom: 120px;
-                right: 0px;
-                transform: rotate(-20deg);
-                z-index: 7;
-            }
+    button:nth-child(1) {
+        background: var(--button);
+        color: var(--bg);
+        border: 1px solid var(--button);
+    }
 
-            p:nth-child(4) {
-                bottom: 165px;
-                right: 140px;
-                transform: rotate(50deg);
-                z-index: 4;
-            }
+    button:nth-child(2) {
+        color: var(--button);
+        background-color: var(--bg);
+        border: 1px solid var(--button);
+    }
 
-            p:nth-child(5) {
-                bottom: 30px;
-                right: 0px;
-                transform: rotate(18deg);
-                z-index: 3;
-            }
+}
 
-            p:nth-child(6) {
-                bottom: 130px;
-                left: -5px;
-                transform: rotate(30deg);
-            }
+.HomeDownload {
+    display: flex;
+    height: 15%;
+    /* border: 1px solid; */
+    width: 90%;
+    /* background: var(--hover); */
+    margin-top: 50px;
+    overflow: hidden;
+    gap: 80px;
+    font-size: clamp(14px, 2vw, 22px);
+    -webkit-mask-image: linear-gradient(to right,
+            transparent 0%,
+            black 5%,
+            black 95%,
+            transparent 100%);
+    mask-image: linear-gradient(to left,
+            transparent 0%,
+            black 5%,
+            black 95%,
+            transparent 100%);
+}
 
-            p:nth-child(7) {
-                bottom: 95px;
-                left: 200px;
-                transform: rotate(-30deg);
-            }
+.Carosel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    will-change: transform;
+    animation: infiniteScroll 30s linear infinite;
+}
 
-            p:nth-child(8) {
-                bottom: 0px;
-                left: 387px;
-                /* transform: rotate(6deg); */
-            }
+.HomeDownload:hover .Carosel {
+    animation-play-state: paused;
+}
 
-            p:nth-child(9) {
-                bottom: 10px;
-                ;
-                left: 0px;
-                transform: rotate(-10deg);
-            }
+.Carosel p {
+    font-family: 'Clash';
+    color: var(--button);
+    border: 1px solid var(--button);
+    width: 200px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(20px, 20px, 50px);
+    white-space: nowrap;
+}
 
-            p:nth-child(10) {
-                bottom: 0px;
-                left: 220px;
-                /* transform: rotate(14deg); */
-            }
-        }
+@keyframes infiniteScroll {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
     }
 }
