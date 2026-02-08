@@ -18,6 +18,11 @@
     src: url('../../assests/fonts/ClashDisplay.ttf');
 }
 
+@font-face {
+    font-family: "Tropic";
+    src: url('../../assests/fonts/Tropical.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;

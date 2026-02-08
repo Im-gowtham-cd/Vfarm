@@ -4,13 +4,13 @@ import i1 from '../../assests/images/H1.png'
 
 export default function App() {
     return (
-        <>
+        <div className={HomeStyle.HomeCenter}>
             <nav className={HomeStyle.nav}>
                 <h1>V Farm</h1>
                 <ul>
                     <a href="">Home</a>
-                    <a href="">Features</a>
                     <a href="">About</a>
+                    <a href="">Features</a>
                     <a href="">How it works ?</a>
                 </ul>
                 <a href="">Download <i className="bx bx-arrow-to-bottom" /></a>
@@ -38,6 +38,7 @@ export default function App() {
                             </div>
                         </div>
                     </div>
+
                 </section>
                 <div className={HomeStyle.HomeDownload}>
                     <div className={HomeStyle.Carosel}>
@@ -65,13 +66,22 @@ export default function App() {
                         <p>Verified</p>
                     </div>
                 </div>
+
             </div>
-            <section className={HomeStyle.DownloadContainer}>
-                <div>
+            <section className={HomeStyle.AboutContainer}>
+                <p className={HomeStyle.AboutApplication}>About -- V Farm</p>
+                <ul className={HomeStyle.AboutContext}>
+                    <li>1 ) VFarm is a next-generation agri-tech platform redefining how farmers access knowledge, resources, and opportunities. We leverage technology, data, and AI to transform everyday farming into a smarter, more profitable, and more sustainable practice.</li>
+                    <li>2 ) Built for the real needs of farmers, VFarm delivers powerful tools in a simple mobile experience — from government scheme access and real-time weather insights to market intelligence and AI-driven farming recommendations. Everything a farmer needs, unified in one digital ecosystem.</li>
+                    <li>3 ) Our vision is to digitize agriculture at the grassroots level, ensuring that even small and medium farmers can benefit from modern innovation. With multilingual support and farmer-friendly design, VFarm makes advanced technology truly accessible.</li>
+                    <li>4 ) We are not just supporting farmers — we are enabling a future where agriculture is data-driven, connected, and resilient.</li>
+                </ul>
+
+                <div className={HomeStyle.DownloadButtonContainer}>
                     <button>Download <i className="bx bx-arrow-to-bottom" /></button>
                     <button>Versions <i className="bx bx-layers-down-right" /></button>
                 </div>
             </section>
-        </>
+        </div>
     )
 }
