@@ -1,33 +1,73 @@
 import HomeStyle from './page.module.css'
 import Image from 'next/image'
-import i1 from '../../assests/images/H1.png'
+
+import i1 from '../../assests/images/1.jpeg'
+import i2 from '../../assests/images/2.jpeg'
+import i3 from '../../assests/images/3.jpeg'
+import i4 from '../../assests/images/4.jpeg'
+import i5 from '../../assests/images/5.jpeg'
+import h1 from '../../assests/images/H1.png'
 
 export default function App() {
 
     const navLinks = ['Home', 'About', 'Features', 'How it works ?']
 
     const stats = [
-        '1 K+ Downloads', '500+ Users', 'Secure', 'Trusted', '24/7 Support',
-        'Easy to Use', 'Reliable', 'Cloud Based', 'Affordable', 'Verified'
+        '1 K+ Downloads', '500+ Users', 'Secure', 'Trusted',
+        '24/7 Support', 'Easy to Use', 'Reliable',
+        'Cloud Based', 'Affordable', 'Verified'
     ]
 
     const aboutList = [
-        "VFarm is a next-generation agri-tech platform redefining how farmers access knowledge, resources, and opportunities. We leverage technology, data, and AI to transform everyday farming into a smarter, more profitable, and more sustainable practice.",
-        "Built for the real needs of farmers, VFarm delivers powerful tools in a simple mobile experience — from government scheme access and real-time weather insights to market intelligence and AI-driven farming recommendations. Everything a farmer needs, unified in one digital ecosystem.",
-        "Our vision is to digitize agriculture at the grassroots level, ensuring that even small and medium farmers can benefit from modern innovation. With multilingual support and farmer-friendly design, VFarm makes advanced technology truly accessible.",
-        "We are not just supporting farmers — we are enabling a future where agriculture is data-driven, connected, and resilient."
+        "VFarm is a next-generation agri-tech platform redefining how farmers access knowledge, resources, and opportunities.",
+        "Built for the real needs of farmers, VFarm delivers powerful tools in a simple mobile experience.",
+        "Our vision is to digitize agriculture at the grassroots level with multilingual support.",
+        "We are enabling a future where agriculture is data-driven and resilient."
     ]
 
     const features = [
-        { t: 'Smarter Decisions', d: 'AI-powered insights that guide every step of your farming journey.' },
-        { t: 'Effortless Access', d: 'Government schemes and services, simplified in one place.' },
-        { t: 'Know the Weather', d: 'Real-time forecasts to protect what you grow.' },
-        { t: 'Sell Smarter', d: 'Live market prices that help you maximize value.' },
-        { t: 'All Documents. One Place.', d: 'Secure, digital, always within reach.' },
-        { t: 'Stronger Together', d: 'A community that grows knowledge and success.' },
-        { t: 'Expert Help', d: 'Trusted advice, when it matters most.' },
-        { t: 'Track Progress', d: 'Every activity logged. Every improvement measured.' },
-        { t: 'Private & Secure', d: 'Your data stays yours — protected by design.' }
+        { t: 'Smarter Decisions', d: 'AI-powered insights that guide every step.' },
+        { t: 'Effortless Access', d: 'Government schemes simplified.' },
+        { t: 'Know the Weather', d: 'Real-time forecasts.' },
+        { t: 'Sell Smarter', d: 'Live market prices.' },
+        { t: 'All Documents', d: 'Secure digital storage.' },
+        { t: 'Community', d: 'Learn from farmers.' },
+        { t: 'Expert Help', d: 'Advice when needed.' },
+        { t: 'Track Progress', d: 'Monitor growth.' },
+        { t: 'Private & Secure', d: 'Your data is protected.' }
+    ]
+
+    const HIWCard = [
+        {
+            t: '01 — Sign Up & Set Up',
+            d: 'Create your account and add farm details like location, crops, and soil type. Your personalized journey starts here.',
+            m: i1
+        },
+        {
+            t: '02 — Get Smart Recommendations',
+            d: 'Receive AI-powered suggestions, weather insights, and crop guidance tailored to your farm.',
+            m: i2
+        },
+        {
+            t: '03 — Apply for Schemes',
+            d: 'Find schemes, check eligibility, and apply easily with guided steps.',
+            m: i3
+        },
+        {
+            t: '04 — Track Your Farm',
+            d: 'Log activities, upload documents, and monitor crop progress.',
+            m: i4
+        },
+        {
+            t: '05 — Connect with Experts',
+            d: 'Get advice from agricultural experts and experienced farmers.',
+            m: i5
+        },
+        {
+            t: '06 — Grow Smarter Each Season',
+            d: 'Use analytics and insights to boost yields every season.',
+            m: i1
+        }
     ]
 
     return (
@@ -40,7 +80,7 @@ export default function App() {
                         <a key={i} href="">{link}</a>
                     ))}
                 </ul>
-                <a href="">Download <i className="bx bx-arrow-to-bottom" /></a>
+                <a href="">Download</a>
             </nav>
 
             <div className={HomeStyle.HomeContainer}>
@@ -48,23 +88,23 @@ export default function App() {
                     <div className={HomeStyle.HomeContext}>
                         <p>We Farm , We Evolve</p>
                         <p>
-                            V Farm makes farming simple with easy tools and instant access to schemes,
-                            weather, and expert advice. Fast, secure, and built to support every farmer’s success.
+                            V Farm makes farming simple with easy tools and instant access
+                            to schemes, weather, and expert advice.
                         </p>
                         <ul>
-                            <a href="">Explore <i className="bx bx-arrow-in-up-right-circle" /></a>
+                            <a href="">Explore</a>
                         </ul>
                     </div>
 
                     <div className={HomeStyle.HomeImage}>
                         <div className={HomeStyle.HomeCaro}>
                             <div className={HomeStyle.Card}>
-                                <Image src={i1} alt="Farm illustration" className={HomeStyle.img} />
+                                <Image src={h1} alt="Farm" className={HomeStyle.img} />
                                 <ul>
-                                    <p>Commuinty Chat</p>
-                                    <p>The community based feature that helps to communicate the other farmer.</p>
+                                    <p>Community Chat</p>
+                                    <p>The community feature that helps farmers connect.</p>
                                     <span>
-                                        <button>Next <i className="bx bx-arrow-in-up-right-circle" /></button>
+                                        <button>Next</button>
                                     </span>
                                 </ul>
                             </div>
@@ -86,13 +126,9 @@ export default function App() {
                 <p className={HomeStyle.AboutApplication}>About -- V Farm</p>
                 <ul className={HomeStyle.AboutContext}>
                     {aboutList.map((text, i) => (
-                        <li key={i}>{i + 1} ) {text}</li>
+                        <li key={i}>{i + 1}) {text}</li>
                     ))}
                 </ul>
-                <div className={HomeStyle.DownloadButtonContainer}>
-                    <button>Download <i className="bx bx-arrow-to-bottom" /></button>
-                    <button>Versions <i className="bx bx-layers-down-right" /></button>
-                </div>
             </section>
 
             <section className={HomeStyle.FeatureContainer}>
@@ -107,9 +143,20 @@ export default function App() {
                 </div>
             </section>
 
-            {/* <section className={HomeStyle.VersionContainer}>
-                    <p>Version</p>
-            </section> */}
+            <section className={HomeStyle.HIWContainer}>
+                <p>How it works ?</p>
+                <div className={HomeStyle.HIWCardContainer}>
+                    {HIWCard.map((h, i) => (
+                        <div key={i} className={HomeStyle.HIWCard}>
+                            <p>{h.t}</p>
+                            <p>{h.d}</p>
+                            <div className={HomeStyle.HIWImage}>
+                                <Image src={h.m} alt={h.t} className={HomeStyle.HIWImg} />
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </section>
 
         </div>
     )
