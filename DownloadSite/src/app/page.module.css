@@ -274,7 +274,7 @@
     color: var(--button);
     border: 1px solid var(--button);
     width: 200px;
-    padding: 15px 20px;
+    padding: 5px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -294,7 +294,7 @@
 
 .AboutContainer {
     /* border: 2px solid var(--button); */
-    height: 100vh;
+    height: 50vh;
     width: 90%;
     display: flex;
     /* align-items: center; */
@@ -315,7 +315,7 @@
     .AboutContext {
         list-style: none;
         width: 100%;
-        padding: 30px 0px;
+        padding: 50px 0px;
         /* border: 1px solid; */
         display: flex;
         justify-content: center;
@@ -340,7 +340,7 @@
 
         button {
             font-family: 'Clash';
-            padding: 15px 30px;
+            padding: 20px 30px;
             display: flex;
             height: 50%;
             justify-content: center;
@@ -362,4 +362,74 @@
         }
     }
 
+
+
+}
+
+.FeatureContainer {
+    height: 80vh;
+    width: 90%;
+    /* border: 1px solid; */
+
+    .FeatureText {
+        font-family: 'Primor';
+        margin-top:3vh;
+        font-size: clamp(20px, 10vh, 60px);
+        color: var(--button);
+    }
+
+    .FeatureCardContainer {
+        /* border: 1px solid brown; */
+        height: 75%;
+        width: 100%;
+        margin-top: 7vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 50px;
+        grid-template-areas: 
+        "c1 c2 c3"
+        "c4 c2 c5"
+        "c6 c7 c8"
+        "c6 c9 c9";
+
+        .FeatureCard:nth-child(1){ grid-area: c1; }
+        .FeatureCard:nth-child(2){ grid-area: c2; }
+        .FeatureCard:nth-child(3){ grid-area: c3; }
+        .FeatureCard:nth-child(4){ grid-area: c4; }
+        .FeatureCard:nth-child(5){ grid-area: c5; }
+        .FeatureCard:nth-child(6){ grid-area: c6; }
+        .FeatureCard:nth-child(7){ grid-area: c7; }
+        .FeatureCard:nth-child(8){ grid-area: c8; }
+        .FeatureCard:nth-child(9){ grid-area: c9; }
+
+        .FeatureCard {
+            /* height: 200px; */
+            /* width: 25%; */
+            border: 2px solid var(--button);
+            display: flex;
+            /* background-color: var(--button); */
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+
+            p:nth-child(1) {
+                color: var(--button);
+                font-size: clamp(20px, 10vh, 30px);
+                font-family: 'Primor';
+            }
+
+            p:nth-child(2){
+                /* font-size: clamp(20px, 10vh, 18px); */
+                font-family: 'Clash';
+            }
+        }
+    }
+}
+
+.VersionContainer{
+    height: 50vh;
+    width: 90%;
+    border: 1px solid;
 }
