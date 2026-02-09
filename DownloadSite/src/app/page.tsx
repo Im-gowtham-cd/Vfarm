@@ -80,7 +80,7 @@ export default function App() {
                         <a key={i} href="">{link}</a>
                     ))}
                 </ul>
-                <a href="">Download</a>
+                <a href="">Download<i className="bx bx-arrow-to-bottom" /></a>
             </nav>
 
             <div className={HomeStyle.HomeContainer}>
@@ -88,11 +88,10 @@ export default function App() {
                     <div className={HomeStyle.HomeContext}>
                         <p>We Farm , We Evolve</p>
                         <p>
-                            V Farm makes farming simple with easy tools and instant access
-                            to schemes, weather, and expert advice.
+                            V Farm makes farming simple with easy tools and instant access to schemes, weather, and expert advice.
                         </p>
                         <ul>
-                            <a href="">Explore</a>
+                            <a href="">Explore <i className="bx bx-arrow-in-right-circle-half" /></a>
                         </ul>
                     </div>
 
@@ -104,7 +103,7 @@ export default function App() {
                                     <p>Community Chat</p>
                                     <p>The community feature that helps farmers connect.</p>
                                     <span>
-                                        <button>Next</button>
+                                        <button>Next <i className="bx bx-arrow-in-right-circle-half" /></button>
                                     </span>
                                 </ul>
                             </div>
@@ -129,6 +128,12 @@ export default function App() {
                         <li key={i}>{i + 1}) {text}</li>
                     ))}
                 </ul>
+
+                <div className={HomeStyle.DownloadButtonContainer}>
+                    <button>Download <i className="bx bx-arrow-to-bottom" /></button>
+                    <button>Version <i className="bx bx-layers-down-right" /></button>
+                </div>
+
             </section>
 
             <section className={HomeStyle.FeatureContainer}>

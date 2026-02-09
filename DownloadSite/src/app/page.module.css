@@ -8,207 +8,221 @@
     height: 10vh;
     width: 90%;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     justify-content: space-between;
     position: sticky;
     z-index: 10;
     top: 0;
     backdrop-filter: blur(10px);
+}
 
-    h1 {
-        color: var(--button);
-        font-family: 'Primor';
-        letter-spacing: 2px;
-        font-weight: 900;
-        font-size: clamp(15px, 10vh, 40px);
-    }
+.nav h1 {
+    color: var(--button);
+    font-family: 'Primor', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: clamp(15px, 10vh, 40px);
+}
 
-    ul {
-        width: 35%;
-        border: 1px solid var(--button);
-        padding: 15px 20px;
-        display: flex;
-        justify-content: space-between;
-        background: var(--hover);
+.nav ul {
+    width: 35%;
+    border: 1px solid var(--button);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--hover);
+    list-style: none;
+}
 
-        a {
-            color: var(--button);
-            padding: 0;
-            background-color: transparent;
-        }
-    }
+.nav ul a {
+    color: var(--button);
+    padding: 0;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
 
-    a {
-        text-decoration: none;
-        font-family: 'Montserrat';
-        color: var(--bg);
-        background-color: var(--button);
-        padding: 15px 20px;
-        border-radius: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
+.nav a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--bg);
+    background-color: var(--button);
+    padding: 15px 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 
-        i {
-            font-size: 20px;
-        }
-    }
+.nav a i {
+    font-size: 20px;
 }
 
 .HomeContainer {
-    height: 100vh;
+    height: fit-content;
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
 
-    .Home {
-        height: 60%;
-        width: 90%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas: "context image";
+.HomeContainer .Home {
+    height: 75vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "context image";
+    /* border: 1px solid; */
+}
 
-        .HomeContext {
-            grid-area: context;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+.HomeContainer .Home .HomeContext {
+    grid-area: context;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-            p:nth-child(1) {
-                font-family: 'Primor';
-                font-size: clamp(20px, 60px, 130px);
-                color: var(--button);
-                margin-bottom: 6%;
-            }
+.HomeContainer .Home .HomeContext p:nth-child(1) {
+    font-family: 'Primor', sans-serif;
+    font-size: clamp(20px, 60px, 130px);
+    color: var(--button);
+    margin-bottom: 6%;
+}
 
-            p:nth-child(2) {
-                font-family: 'Clash';
-                font-size: clamp(10px, 20px, 60px);
-                margin-bottom: 4%;
-                width: 80%;
-            }
+.HomeContainer .Home .HomeContext p:nth-child(2) {
+    font-family: 'Clash', sans-serif;
+    font-size: clamp(10px, 20px, 60px);
+    height: fit-content;
+    margin-bottom: 4%;
+    width: 90%;
+}
 
-            ul {
-                width: 100%;
-                height: 25%;
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
+.HomeContainer .Home .HomeContext ul {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
 
-                a {
-                    text-decoration: none;
-                }
+.HomeContainer .Home .HomeContext ul a {
+    text-decoration: none;
+}
 
-                a:nth-child(1) {
-                    color: var(--button);
-                    background-color: var(--bg);
-                    font-family: 'Clash';
-                    font-weight: 500;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    border: 1px solid var(--button);
-                    gap: 10px;
-                    border-radius: 100px;
-                    padding: 10px 20px;
-                    font-size: clamp(20px, 25px, 60px);
-                    position: relative;
-                    box-shadow: 0px 5px 1px var(--button);
-                }
+.HomeContainer .Home .HomeContext ul a {
+    color: var(--button);
+    background-color: var(--bg);
+    font-family: 'Clash', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--button);
+    gap: 10px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: clamp(20px, 25px, 60px);
+    position: relative;
+    box-shadow: 0px 5px 1px var(--button);
+}
 
-                a:nth-child(1):hover {
-                    scale: 1.2;
-                    transition: scale 0.3s;
-                }
+.HomeContainer .Home .HomeContext ul a:hover {
+    scale: 1.1;
+    transition: all 0.3s;
+    color: var(--bg);
+    background-color: var(--button);
 
-                a:nth-child(1):hover i {
-                    transition: transform 0.3s;
-                    transform: rotate(45Deg);
-                }
-            }
-        }
+}
 
-        .HomeImage {
-            grid-area: image;
-            display: flex;
-            place-content: center;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
+.HomeContainer .Home .HomeContext ul a:nth-child(1):hover i {
+    transition: transform 0.3s;
+    transform: rotate(-45deg);
+}
 
-            .HomeCaro {
-                height: 100%;
-                width: 800px;
-                display: flex;
-                align-items: center;
+.HomeContainer .Home .HomeImage {
+    grid-area: image;
+    display: flex;
+    height: fit-content;
+    place-content: center;
+    /* border: 1px solid; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
-                .Card {
-                    height: 65%;
-                    width: 100%;
-                    align-items: center;
-                    display: flex;
-                    background: var(--bg);
-                    border: 2px solid var(--button);
-                    box-shadow: 7px 7px 1px 2px var(--button);
-                }
+.HomeContainer .Home .HomeImage .HomeCaro {
+    height: 75vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+}
 
-                img {
-                    height: 80%;
-                    width: 400px;
-                }
+.HomeContainer .Home .HomeImage .HomeCaro .Card {
+    height: 50%;
+    width: 40%;
+    align-items: center;
+    display: flex;
+    background: var(--bg);
+    border: 2px solid var(--button);
+    box-shadow: 7px 7px 1px 2px var(--button);
+}
 
-                ul {
-                    width: 400px;
-                    height: 80%;
+.HomeContainer .Home .HomeImage .HomeCaro img {
+    height: 80%;
+    width: 400px;
+    object-fit: contain;
+}
 
-                    p:nth-child(1) {
-                        font-family: 'Primor';
-                        color: var(--button);
-                        margin-top: 15%;
-                        font-weight: 800;
-                        font-size: clamp(20px, 30px, 10vh);
-                    }
+.HomeContainer .Home .HomeImage .HomeCaro ul {
+    width: 400px;
+    height: 80%;
+    list-style: none;
+}
 
-                    p:nth-child(2) {
-                        font-family: 'Clash';
-                        margin-top: 5%;
-                        height: 35%;
-                        width: 100%;
-                    }
+.HomeContainer .Home .HomeImage .HomeCaro ul p:nth-child(1) {
+    font-family: 'Primor', sans-serif;
+    color: var(--button);
+    margin-top: 15%;
+    font-weight: 800;
+    font-size: clamp(20px, 30px, 10vh);
+}
 
-                    span {
-                        width: 100%;
-                        margin-top: 1%;
-                        display: flex;
-                        justify-content: end;
+.HomeContainer .Home .HomeImage .HomeCaro ul p:nth-child(2) {
+    font-family: 'Clash', sans-serif;
+    margin-top: 5%;
+    height: 35%;
+    width: 100%;
+}
 
-                        button {
-                            border: 1px solid var(--button);
-                            background: transparent;
-                            color: var(--button);
-                            font-family: 'Clash';
-                            margin-right: 70px;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            gap: 10px;
-                            border-radius: 100px;
-                            font-size: clamp(20px, 10vh, 20px);
-                            padding: 7px 20px;
+.HomeContainer .Home .HomeImage .HomeCaro ul span {
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
 
-                            i {
-                                transform: rotate(45Deg);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+.HomeContainer .Home .HomeImage .HomeCaro ul span button {
+    border: 1px solid var(--button);
+    background: transparent;
+    color: var(--button);
+    font-family: 'Clash', sans-serif;
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 100px;
+    font-size: clamp(20px, 10vh, 20px);
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.HomeContainer .Home .HomeImage .HomeCaro ul span button i {
+    transform: rotate(0Deg);
 }
 
 .HomeDownload {
@@ -237,7 +251,7 @@
 }
 
 .Carosel p {
-    font-family: 'Clash';
+    font-family: 'Clash', sans-serif;
     color: var(--button);
     border: 1px solid var(--button);
     width: 200px;
@@ -250,27 +264,12 @@
 }
 
 @keyframes infiniteScroll {
-    from { transform: translateX(0%); }
-    to { transform: translateX(-100%); }
-}
-
-.AboutContainer, .FeatureCard, .HIWCard {
-    view-timeline-name: --sectionReveal;
-    view-timeline-axis: block;
-    animation-timeline: --sectionReveal;
-    animation-name: sectionFadeIn;
-    animation-range: entry 10% cover 30%;
-    animation-fill-mode: both;
-}
-
-@keyframes sectionFadeIn {
     from {
-        opacity: 0;
-        transform: translateY(50px) scale(0.95);
+        transform: translateX(0%);
     }
+
     to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
+        transform: translateX(-100%);
     }
 }
 
@@ -279,224 +278,338 @@
     width: 90%;
     display: flex;
     flex-direction: column;
+}
 
-    .AboutApplication {
-        font-family: 'Primor';
-        font-size: clamp(20px, 10vh, 60px);
-        color: var(--button);
-    }
+.AboutContainer .AboutApplication {
+    font-family: 'Primor', sans-serif;
+    font-size: clamp(20px, 10vh, 60px);
+    color: var(--button);
+}
 
-    .AboutContext {
-        list-style: none;
-        width: 100%;
-        padding: 50px 0px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 30px;
+.AboutContainer .AboutContext {
+    list-style: none;
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
 
-        li {
-            font-size: clamp(15px, 10vh, 18px);
-            font-family: 'Clash';
-            text-align: justify;
-        }
-    }
+.AboutContainer .AboutContext li {
+    font-size: clamp(15px, 10vh, 18px);
+    font-family: 'Clash', sans-serif;
+    text-align: justify;
+}
 
-    .DownloadButtonContainer {
-        width: 100%;
-        height: 10%;
-        display: flex;
-        gap: 50px;
-        align-items: center;
+.AboutContainer .DownloadButtonContainer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
 
-        button {
-            font-family: 'Clash';
-            padding: 20px 30px;
-            display: flex;
-            height: 50%;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            font-size: clamp(15px, 10vh, 18px);
-        }
+.AboutContainer .DownloadButtonContainer button {
+    font-family: 'Clash', sans-serif;
+    padding: 20px 30px;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: clamp(15px, 10vh, 18px);
+    cursor: pointer;
+}
 
-        button:nth-child(1) {
-            background: var(--button);
-            color: var(--bg);
-            border: 1px solid var(--button);
-        }
+.AboutContainer .DownloadButtonContainer button:nth-child(1) {
+    background: var(--button);
+    color: var(--bg);
+    border: 1px solid var(--button);
+}
 
-        button:nth-child(2) {
-            color: var(--button);
-            background-color: var(--bg);
-            border: 1px solid var(--button);
-        }
-    }
+.AboutContainer .DownloadButtonContainer button:nth-child(2) {
+    color: var(--button);
+    background-color: var(--bg);
+    border: 1px solid var(--button);
 }
 
 .FeatureContainer {
-    height: 80vh;
+    height: fit-content;
     width: 90%;
+    /* border: 1px solid */
+    /* padding: 50px 0; */
+}
 
-    .FeatureText {
-        font-family: 'Primor';
-        margin-top: 3vh;
-        font-size: clamp(20px, 10vh, 60px);
-        color: var(--button);
-    }
+.FeatureContainer .FeatureText {
+    font-family: 'Primor', sans-serif;
+    margin-top: 3vh;
+    font-size: clamp(20px, 10vh, 60px);
+    color: var(--button);
+}
 
-    .FeatureCardContainer {
-        height: 75%;
-        width: 100%;
-        margin-top: 7vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 50px;
-        grid-template-areas:
-            "c1 c2 c3"
-            "c4 c2 c5"
-            "c6 c7 c8"
-            "c6 c9 c9";
+.FeatureContainer .FeatureCardContainer {
+    height: 100%;
+    padding: 50px 0px;
+    width: 100%;
+    margin-top: 7vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    grid-template-areas: "c1 c2 c3" "c4 c2 c5" "c6 c7 c8" "c6 c9 c9";
+}
 
-        .FeatureCard:nth-child(1) { grid-area: c1; }
-        .FeatureCard:nth-child(2) { grid-area: c2; }
-        .FeatureCard:nth-child(3) { grid-area: c3; }
-        .FeatureCard:nth-child(4) { grid-area: c4; }
-        .FeatureCard:nth-child(5) { grid-area: c5; }
-        .FeatureCard:nth-child(6) { grid-area: c6; }
-        .FeatureCard:nth-child(7) { grid-area: c7; }
-        .FeatureCard:nth-child(8) { grid-area: c8; }
-        .FeatureCard:nth-child(9) { grid-area: c9; }
+.FeatureContainer .FeatureCardContainer .FeatureCard:nth-child(1) {
+    grid-area: c1;
+}
 
-        .FeatureCard {
-            border: 2px solid var(--button);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
+.FeatureContainer .FeatureCardContainer .FeatureCard:nth-child(2) {
+    grid-area: c2;
+}
 
-            p:nth-child(1) {
-                color: var(--button);
-                font-size: clamp(20px, 10vh, 30px);
-                font-family: 'Primor';
-            }
+.FeatureContainer .FeatureCardContainer .FeatureCard:nth-child(3) {
+    grid-area: c3;
+}
 
-            p:nth-child(2) {
-                font-family: 'Clash';
-            }
-        }
-    }
+.FeatureContainer .FeatureCardContainer .FeatureCard:nth-child(4) {
+    grid-area: c4;
+}
+
+.FeatureContainer .FeatureCardContainer .FeatureCard:nth-child(5) {
+    grid-area: c5;
+}
+
+.FeatureContainer .FeatureCardContainer .FeatureCard:nth-child(6) {
+    grid-area: c6;
+}
+
+.FeatureContainer .FeatureCardContainer .FeatureCard:nth-child(7) {
+    grid-area: c7;
+}
+
+.FeatureContainer .FeatureCardContainer .FeatureCard:nth-child(8) {
+    grid-area: c8;
+}
+
+.FeatureContainer .FeatureCardContainer .FeatureCard:nth-child(9) {
+    grid-area: c9;
+}
+
+.FeatureContainer .FeatureCardContainer .FeatureCard {
+    border: 2px solid var(--button);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.FeatureContainer .FeatureCardContainer .FeatureCard p:nth-child(1) {
+    color: var(--button);
+    font-size: clamp(20px, 10vh, 30px);
+    font-family: 'Primor', sans-serif;
+}
+
+.FeatureContainer .FeatureCardContainer .FeatureCard p:nth-child(2) {
+    font-family: 'Clash', sans-serif;
 }
 
 .HIWContainer {
     height: fit-content;
     width: 90%;
     padding: 20px 0;
+}
 
-    p:nth-child(1) {
-        color: var(--button);
-        font-size: clamp(20px, 10vh, 60px);
-        font-family: 'Primor';
+.HIWContainer p:nth-child(1) {
+    color: var(--button);
+    font-size: clamp(20px, 10vh, 60px);
+    font-family: 'Primor', sans-serif;
+}
+
+.HIWContainer .HIWCardContainer {
+    margin-top: 5vh;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+}
+
+.HIWContainer .HIWCardContainer .HIWCard {
+    position: sticky;
+    top: 15%;
+    background-color: var(--bg);
+}
+
+.HIWContainer .HIWCardContainer .HIWCard:nth-child(odd) {
+    height: 80vh;
+    display: grid;
+    margin-top: 10vh;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas: "h1 i1" "h2 i1";
+}
+
+.HIWContainer .HIWCardContainer .HIWCard:nth-child(odd) p:nth-child(1) {
+    font-size: clamp(20px, 10vh, 50px);
+    font-family: 'Tropic', serif;
+    grid-area: h1;
+}
+
+.HIWContainer .HIWCardContainer .HIWCard:nth-child(odd) p:nth-child(2) {
+    font-size: clamp(20px, 10vh, 20px);
+    font-family: 'Clash', sans-serif;
+    grid-area: h2;
+    color: black;
+}
+
+.HIWContainer .HIWCardContainer .HIWCard:nth-child(odd) .HIWImage {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: i1;
+}
+
+.HIWContainer .HIWCardContainer .HIWCard:nth-child(odd) .HIWImage .HIWImg {
+    height: 95%;
+    box-shadow: 0px 0px 15px 1px var(--button);
+    width: 75%;
+}
+
+.HIWContainer .HIWCardContainer .HIWCard:nth-child(even) {
+    height: 80vh;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas: "i1 h1" "i1 h2";
+}
+
+.HIWContainer .HIWCardContainer .HIWCard:nth-child(even) p:nth-child(1) {
+    font-size: clamp(20px, 10vh, 50px);
+    font-family: 'Tropic', serif;
+    grid-area: h1;
+}
+
+.HIWContainer .HIWCardContainer .HIWCard:nth-child(even) p:nth-child(2) {
+    font-size: clamp(20px, 10vh, 20px);
+    font-family: 'Clash', sans-serif;
+    grid-area: h2;
+    color: black;
+}
+
+.HIWContainer .HIWCardContainer .HIWCard:nth-child(even) .HIWImage {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: i1;
+}
+
+.HIWContainer .HIWCardContainer .HIWCard:nth-child(even) .HIWImage .HIWImg {
+    height: 95%;
+    box-shadow: 0px 0px 15px 1px var(--button);
+    width: 75%;
+}
+
+@media (max-width:768px) {
+    .nav {
+        ul {
+            display: none;
+        }
+
+        h1 {
+            font-size: clamp(15px, 10vh, 25px);
+        }
+
+        a {
+            padding: 5px 10px;
+            font-size: clamp(15px, 1vw, 18px);
+
+            i {
+                font-size: clamp(15px, 1vw, 18px);
+            }
+        }
     }
 
-    .HIWCardContainer {
-        margin-top: 5vh;
-        height: fit-content;
-        width: 100%;
-        position: relative;
+    .HomeContainer {
+        .Home {
+            grid-template-columns: 1fr;
+            gap: 0px;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: " context"
+                "image";
 
-        .HIWCard {
-            position: sticky;
-            top: 15%;
-            background-color: var(--bg);
-            view-timeline-name: --cardScroll;
-            view-timeline-axis: block;
-        }
+            .HomeContext {
+                /* border: 1px solid; */
 
-        .HIWImg {
-            animation-timeline: --cardScroll;
-            animation-name: parallaxImg;
-            animation-fill-mode: both;
-            animation-range: entry 0% exit 100%;
-        }
 
-        @keyframes parallaxImg {
-            from { transform: translateY(60px); }
-            to { transform: translateY(-60px); }
-        }
+                p:nth-child(1) {
+                    margin-top: 5vh;
+                    font-size: clamp(20px, 60px, 28px);
+                }
 
-        .HIWCard:nth-child(odd) {
-            height: 80vh;
-            display: grid;
-            margin-top: 10vh;
-            grid-template-columns: 2fr 1fr;
-            grid-template-rows: 1fr 5fr;
-            grid-template-areas: "h1 i1" "h2 i1";
+                p:nth-child(2) {
+                    font-size: clamp(10px, 10vw, 15px);
+                }
 
-            p:nth-child(1) {
-                font-size: clamp(20px, 10vh, 50px);
-                font-family: 'Tropic';
-                grid-area: h1;
+                ul {
+                    a {
+                        padding: 5px 10px;
+                        font-size: 16px;
+                    }
+                }
             }
 
-            p:nth-child(2) {
-                font-size: clamp(20px, 10vh, 20px);
-                font-family: 'Clash';
-                grid-area: h2;
-                color: black;
-            }
+            .HomeImage {
+                /* border: 1px solid; */
+                height: 40vh;
 
-            .HIWImage {
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                grid-area: i1;
+                .HomeCaro {
+                    height: 75%;
 
-                .HIWImg {
-                    height: 95%;
-                    box-shadow: 0px 0px 15px 1px var(--button);
-                    width: 75%;
+                    .Card {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    img {
+                        display: none;
+                    }
+
+                    ul {
+                        p:nth-child(1) {
+                            margin-top: 0;
+                            font-size: 25px;
+                            /* margin-left: 5%; */
+                        }
+
+                        p:nth-child(2) {
+                            margin-top: 0;
+                            font-size: 18px;
+                            margin-top: 5%;
+                        }
+
+                        span {
+                            button {
+                                margin-right: 10px;
+                                font-size: clamp(12px, 10vw, 15px);
+                                padding: 7px 20px;
+                            }
+                        }
+                    }
                 }
             }
         }
+    }
 
-        .HIWCard:nth-child(even) {
-            height: 80vh;
-            margin-top: 10vh;
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            grid-template-rows: 1fr 5fr;
-            grid-template-areas: "i1 h1" "i1 h2";
+    .Carosel {
+        gap: 25px;
+    }
 
-            p:nth-child(1) {
-                font-size: clamp(20px, 10vh, 50px);
-                font-family: 'Tropic';
-                grid-area: h1;
-            }
-
-            p:nth-child(2) {
-                font-size: clamp(20px, 10vh, 20px);
-                font-family: 'Clash';
-                grid-area: h2;
-                color: black;
-            }
-
-            .HIWImage {
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                grid-area: i1;
-
-                .HIWImg {
-                    height: 95%;
-                    box-shadow: 0px 0px 15px 1px var(--button);
-                    width: 75%;
-                }
-            }
-        }
+    .Carosel p {
+        font-size: clamp(12px, 10vw, 15px);
+        width: 120px;
     }
 }
