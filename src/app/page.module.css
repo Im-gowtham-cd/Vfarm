@@ -156,14 +156,15 @@
 
 .HomeContainer .Home .HomeImage .HomeCaro {
     height: 75vh;
-    width: 90vw;
+    width: 50vw;
     display: flex;
     align-items: center;
+    justify-content: end;
 }
 
 .HomeContainer .Home .HomeImage .HomeCaro .Card {
     height: 50%;
-    width: 40%;
+    width: 80%;
     align-items: center;
     display: flex;
     background: var(--bg);
@@ -284,6 +285,7 @@
     font-family: 'Primor', sans-serif;
     font-size: clamp(20px, 10vh, 60px);
     color: var(--button);
+    margin-top: 10vh;
 }
 
 .AboutContainer .AboutContext {
@@ -343,7 +345,7 @@
 
 .FeatureContainer .FeatureText {
     font-family: 'Primor', sans-serif;
-    margin-top: 3vh;
+    margin-top: 10vh;
     font-size: clamp(20px, 10vh, 60px);
     color: var(--button);
 }
