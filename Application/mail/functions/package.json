@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "firebase-functions": "^3.24.1",
-    "googleapis": "^155.0.0",
-    "nodemailer": "^7.0.5"
-  }
-}
