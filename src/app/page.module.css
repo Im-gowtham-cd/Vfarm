@@ -407,6 +407,33 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+}
+
+.FeatureContainer .FeatureCardContainer .FeatureCard::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: var(--button);
+    top: 0;
+    left: -100%;
+    z-index: 1;
+    /* opacity: 0; */
+    transition: all 1s;    
+}
+
+.FeatureContainer .FeatureCardContainer .FeatureCard:hover::after {
+    /* opacity: 1; */
+    left: 0;
+}
+
+.FeatureContainer .FeatureCardContainer .FeatureCard:hover ,.FeatureContainer .FeatureCardContainer .FeatureCard:hover p:nth-child(1) {
+    color: var(--bg);
+    z-index: 2;
 }
 
 .FeatureContainer .FeatureCardContainer .FeatureCard p:nth-child(1) {
@@ -417,6 +444,7 @@
 
 .FeatureContainer .FeatureCardContainer .FeatureCard p:nth-child(2) {
     font-family: 'Clash', sans-serif;
+    z-index: 2;
 }
 
 .HIWContainer {
