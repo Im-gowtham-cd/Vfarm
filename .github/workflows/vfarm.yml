@@ -38,13 +38,13 @@ jobs:
           sudo docker rm myapp || true
           
           echo "Pulling latest image..."
-          sudo docker pull chandrulinesmasher/mysampleappv1:latest
+          sudo docker pull gowthamcd/vfarm:vfarm
           
           echo "Starting new container..."
           sudo docker run -d \
             -p 80:3000 \
             --restart always \
             --name myapp \
-            chandrulinesmasher/mysampleappv1:latest
+            gowthamcd/vfarm:vfarm
           
           echo "Deployment completed successfully!"
