@@ -163,6 +163,24 @@ export default function App() {
                 </div>
             </section>
 
+            <section className={HomeStyle.DownaloadExeContainer}>
+                <p>Download</p>
+                <p>Download VFarm and take smarter farming to your fingertips.</p>
+                <p>Access expert knowledge, practical tools, and real opportunities — all in one simple app built for farmers. Start your digital farming journey today.</p>
+                <div className={HomeStyle.DownaloadExeCardContainer}>
+                    <button><i className="bxl bx-microsoft-windows" />Donwload V Farm</button>
+                    <button><i className="bxl bx-android" />Donwload V Farm</button>
+                    <button><i className="bxl bx-apple" />Donwload V Farm</button>
+                </div>
+            </section>
+
+            {/* <section className={HomeStyle.Footer}>
+                    <p>V Farm</p>
+                    <div className={HomeStyle.FooterDeveloperSection}>
+
+                    </div>
+            </section> */}
+
         </div>
     )
 }
