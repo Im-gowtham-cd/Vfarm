@@ -159,7 +159,7 @@
     width: 50vw;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .HomeContainer .Home .HomeImage .HomeCaro .Card {
